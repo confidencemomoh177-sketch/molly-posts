@@ -81,11 +81,15 @@
   90,
   96
  ],
- "slots_lagos": [
-  "10:00",
-  "14:00",
-  "18:00"
- ],
  "metricool_brand": 7820491,
- "pinterest_board": "1143070017863799487"
+ "pinterest_board": "1143070017863799487",
+ "slots": {
+  "timezone": "America/New_York",
+  "times": [
+   "09:00",
+   "13:00",
+   "19:00"
+  ],
+  "why": "US buyers: morning scroll, lunch, evening peak"
+ }
 }

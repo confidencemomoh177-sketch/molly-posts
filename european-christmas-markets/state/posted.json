@@ -1,1 +1,157 @@
-{"posted": []}
+{
+ "posted": [
+  {
+   "n": 1,
+   "key": "nuremberg",
+   "date": "2026-11-03",
+   "time": "09:00"
+  },
+  {
+   "n": 2,
+   "key": "mug_deposit",
+   "date": "2026-11-03",
+   "time": "13:00"
+  },
+  {
+   "n": 3,
+   "key": "colmar",
+   "date": "2026-11-03",
+   "time": "19:00"
+  },
+  {
+   "n": 4,
+   "key": "gluhwein",
+   "date": "2026-11-04",
+   "time": "09:00"
+  },
+  {
+   "n": 5,
+   "key": "strasbourg",
+   "date": "2026-11-04",
+   "time": "13:00"
+  },
+  {
+   "n": 6,
+   "key": "prague",
+   "date": "2026-11-04",
+   "time": "19:00"
+  },
+  {
+   "n": 7,
+   "key": "vienna",
+   "date": "2026-11-05",
+   "time": "09:00"
+  },
+  {
+   "n": 8,
+   "key": "valkenburg",
+   "date": "2026-11-05",
+   "time": "13:00"
+  },
+  {
+   "n": 9,
+   "key": "rothenburg",
+   "date": "2026-11-05",
+   "time": "19:00"
+  },
+  {
+   "n": 10,
+   "key": "tivoli",
+   "date": "2026-11-06",
+   "time": "09:00"
+  },
+  {
+   "n": 11,
+   "key": "budapest",
+   "date": "2026-11-06",
+   "time": "13:00"
+  },
+  {
+   "n": 12,
+   "key": "lebkuchen",
+   "date": "2026-11-06",
+   "time": "19:00"
+  },
+  {
+   "n": 13,
+   "key": "cologne",
+   "date": "2026-11-07",
+   "time": "09:00"
+  },
+  {
+   "n": 14,
+   "key": "salzburg",
+   "date": "2026-11-07",
+   "time": "13:00"
+  },
+  {
+   "n": 15,
+   "key": "bruges",
+   "date": "2026-11-07",
+   "time": "19:00"
+  },
+  {
+   "n": 16,
+   "key": "dresden",
+   "date": "2026-11-08",
+   "time": "09:00"
+  },
+  {
+   "n": 17,
+   "key": "krampus",
+   "date": "2026-11-08",
+   "time": "13:00"
+  },
+  {
+   "n": 18,
+   "key": "montreux",
+   "date": "2026-11-08",
+   "time": "19:00"
+  },
+  {
+   "n": 19,
+   "key": "ravenna",
+   "date": "2026-11-09",
+   "time": "09:00"
+  },
+  {
+   "n": 20,
+   "key": "krakow",
+   "date": "2026-11-09",
+   "time": "13:00"
+  },
+  {
+   "n": 21,
+   "key": "lake_bled",
+   "date": "2026-11-09",
+   "time": "19:00"
+  }
+ ],
+ "items_used": [
+  "nuremberg",
+  "mug_deposit",
+  "colmar",
+  "gluhwein",
+  "strasbourg",
+  "prague",
+  "vienna",
+  "valkenburg",
+  "rothenburg",
+  "tivoli",
+  "budapest",
+  "lebkuchen",
+  "cologne",
+  "salzburg",
+  "bruges",
+  "dresden",
+  "krampus",
+  "montreux",
+  "ravenna",
+  "krakow",
+  "lake_bled"
+ ],
+ "board_id": "617978448809090278",
+ "metricool_brand": 7842391,
+ "store_full": "https://www.barnesandnoble.com/w/european-christmas-markets-guide-2026-2027-shelli-a-hibbard/1151461426?ean=9798179025290",
+ "store_short": "https://tinyurl.com/CHRISTMAS-MARKETS-GUIDE"
+}

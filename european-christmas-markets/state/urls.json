@@ -1,0 +1,86 @@
+{
+ "01_nuremberg": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704546/european-christmas-markets/posts/01_nuremberg/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704549/european-christmas-markets/posts/01_nuremberg/pin.jpg"
+ },
+ "02_mug_deposit": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704553/european-christmas-markets/posts/02_mug_deposit/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704555/european-christmas-markets/posts/02_mug_deposit/pin.jpg"
+ },
+ "03_colmar": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704557/european-christmas-markets/posts/03_colmar/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704559/european-christmas-markets/posts/03_colmar/pin.jpg"
+ },
+ "04_gluhwein": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704661/european-christmas-markets/posts/04_gluhwein/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704663/european-christmas-markets/posts/04_gluhwein/pin.jpg"
+ },
+ "05_strasbourg": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704664/european-christmas-markets/posts/05_strasbourg/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704666/european-christmas-markets/posts/05_strasbourg/pin.jpg"
+ },
+ "06_prague": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704667/european-christmas-markets/posts/06_prague/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704669/european-christmas-markets/posts/06_prague/pin.jpg"
+ },
+ "07_vienna": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704670/european-christmas-markets/posts/07_vienna/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704672/european-christmas-markets/posts/07_vienna/pin.jpg"
+ },
+ "08_valkenburg": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704673/european-christmas-markets/posts/08_valkenburg/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704676/european-christmas-markets/posts/08_valkenburg/pin.jpg"
+ },
+ "09_rothenburg": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704677/european-christmas-markets/posts/09_rothenburg/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704680/european-christmas-markets/posts/09_rothenburg/pin.jpg"
+ },
+ "10_tivoli": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704684/european-christmas-markets/posts/10_tivoli/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704686/european-christmas-markets/posts/10_tivoli/pin.jpg"
+ },
+ "11_budapest": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704687/european-christmas-markets/posts/11_budapest/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704690/european-christmas-markets/posts/11_budapest/pin.jpg"
+ },
+ "12_lebkuchen": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704691/european-christmas-markets/posts/12_lebkuchen/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704693/european-christmas-markets/posts/12_lebkuchen/pin.jpg"
+ },
+ "13_cologne": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704694/european-christmas-markets/posts/13_cologne/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704696/european-christmas-markets/posts/13_cologne/pin.jpg"
+ },
+ "14_salzburg": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704697/european-christmas-markets/posts/14_salzburg/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704698/european-christmas-markets/posts/14_salzburg/pin.jpg"
+ },
+ "15_bruges": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704699/european-christmas-markets/posts/15_bruges/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704702/european-christmas-markets/posts/15_bruges/pin.jpg"
+ },
+ "16_dresden": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704705/european-christmas-markets/posts/16_dresden/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704707/european-christmas-markets/posts/16_dresden/pin.jpg"
+ },
+ "17_krampus": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704708/european-christmas-markets/posts/17_krampus/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704710/european-christmas-markets/posts/17_krampus/pin.jpg"
+ },
+ "18_montreux": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704711/european-christmas-markets/posts/18_montreux/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704713/european-christmas-markets/posts/18_montreux/pin.jpg"
+ },
+ "19_ravenna": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704716/european-christmas-markets/posts/19_ravenna/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704718/european-christmas-markets/posts/19_ravenna/pin.jpg"
+ },
+ "20_krakow": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704719/european-christmas-markets/posts/20_krakow/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704722/european-christmas-markets/posts/20_krakow/pin.jpg"
+ },
+ "21_lake_bled": {
+  "video": "https://res.cloudinary.com/u8nockph/video/upload/v1793704723/european-christmas-markets/posts/21_lake_bled/video.mp4",
+  "pin": "https://res.cloudinary.com/u8nockph/image/upload/v1793704725/european-christmas-markets/posts/21_lake_bled/pin.jpg"
+ }
+}

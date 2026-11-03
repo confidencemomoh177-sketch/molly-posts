@@ -1,0 +1,378 @@
+[
+ {
+  "num": 1,
+  "name": "Nuremberg Christkindlesmarkt",
+  "chapter": "Germany",
+  "text_page": 54,
+  "photo": "img/i-018.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 2,
+  "name": "Dresden Striezelmarkt",
+  "chapter": "Germany",
+  "text_page": 56,
+  "photo": "img/i-020.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 3,
+  "name": "Cologne Cathedral Market",
+  "chapter": "Germany",
+  "text_page": 57,
+  "photo": "img/i-021.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 4,
+  "name": "Munich Christkindlmarkt",
+  "chapter": "Germany",
+  "text_page": 59,
+  "photo": "img/i-022.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 5,
+  "name": "Rothenburg ob der Tauber",
+  "chapter": "Germany",
+  "text_page": 61,
+  "photo": "img/i-023.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 6,
+  "name": "Esslingen Medieval Market",
+  "chapter": "Germany",
+  "text_page": 65,
+  "photo": "img/i-024.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 7,
+  "name": "Heidelberg Christmas Market",
+  "chapter": "Germany",
+  "text_page": 66,
+  "photo": "img/i-025.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 8,
+  "name": "Hamburg Historic Christmas Market",
+  "chapter": "Germany",
+  "text_page": 55,
+  "photo": "img/i-026.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 9,
+  "name": "Ravenna Gorge, Black Forest",
+  "chapter": "Germany",
+  "text_page": 69,
+  "photo": "img/i-027.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 10,
+  "name": "Vienna Rathausplatz",
+  "chapter": "Austria",
+  "text_page": 73,
+  "photo": "img/i-029.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 11,
+  "name": "Schönbrunn Palace Market",
+  "chapter": "Austria",
+  "text_page": 74,
+  "photo": "img/i-030.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 12,
+  "name": "Salzburg & the Silent Night Chapel",
+  "chapter": "Austria",
+  "text_page": 77,
+  "photo": "img/i-032.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 13,
+  "name": "Innsbruck",
+  "chapter": "Austria",
+  "text_page": 79,
+  "photo": "img/i-033.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 14,
+  "name": "Wolfgangsee Advent",
+  "chapter": "Austria",
+  "text_page": 82,
+  "photo": "img/i-034.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 15,
+  "name": "Strasbourg, Capitale de Noël",
+  "chapter": "France",
+  "text_page": 86,
+  "photo": "img/i-036.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 16,
+  "name": "Colmar",
+  "chapter": "France",
+  "text_page": 88,
+  "photo": "img/i-038.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 17,
+  "name": "Alsace Wine Villages",
+  "chapter": "France",
+  "text_page": 90,
+  "photo": "img/i-039.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 18,
+  "name": "Montreux Noël",
+  "chapter": "Switzerland",
+  "text_page": 96,
+  "photo": "img/i-041.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 19,
+  "name": "Zurich Singing Christmas Tree",
+  "chapter": "Switzerland",
+  "text_page": 95,
+  "photo": "img/i-042.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 20,
+  "name": "Prague Old Town Square",
+  "chapter": "Czech Republic",
+  "text_page": 16,
+  "photo": "img/i-044.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 21,
+  "name": "Budapest Christmas Fair",
+  "chapter": "Hungary",
+  "text_page": 103,
+  "photo": "img/i-046.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 22,
+  "name": "Brussels Winter Wonders",
+  "chapter": "Belgium",
+  "text_page": 106,
+  "photo": "img/i-048.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 23,
+  "name": "Bruges",
+  "chapter": "Belgium",
+  "text_page": 107,
+  "photo": "img/i-049.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 24,
+  "name": "Valkenburg Cave Markets",
+  "chapter": "Netherlands",
+  "text_page": 108,
+  "photo": "img/i-050.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 25,
+  "name": "Tivoli Gardens, Copenhagen",
+  "chapter": "Denmark",
+  "text_page": 111,
+  "photo": "img/i-052.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 26,
+  "name": "Saint Lucia's Day",
+  "chapter": "Sweden",
+  "text_page": 24,
+  "photo": "img/i-054.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 27,
+  "name": "Rovaniemi, Lapland",
+  "chapter": "Finland",
+  "text_page": 115,
+  "photo": "img/i-055.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 28,
+  "name": "Kraków Main Square",
+  "chapter": "Poland",
+  "text_page": 118,
+  "photo": "img/i-056.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 29,
+  "name": "Kraków Szopki",
+  "chapter": "Poland",
+  "text_page": 119,
+  "photo": "img/i-057.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 30,
+  "name": "Lake Bled",
+  "chapter": "Slovenia",
+  "text_page": 121,
+  "photo": "img/i-058.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 31,
+  "name": "South Tyrol Alpine Markets",
+  "chapter": "Italy",
+  "text_page": 124,
+  "photo": "img/i-060.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 32,
+  "name": "Naples Street of Nativity Scenes",
+  "chapter": "Italy",
+  "text_page": 125,
+  "photo": "img/i-061.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 33,
+  "name": "Annaberg-Buchholz",
+  "chapter": "Hidden Gems",
+  "text_page": 132,
+  "photo": "img/i-065.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 34,
+  "name": "Itinerary: Imperial Capitals",
+  "chapter": "Itineraries",
+  "text_page": 139,
+  "photo": "img/i-069.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 35,
+  "name": "Christmas Market River Cruises",
+  "chapter": "River Cruises",
+  "text_page": 145,
+  "photo": "img/i-072.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 36,
+  "name": "Market mugs & the Pfand deposit",
+  "chapter": "Market Know-How",
+  "text_page": 36,
+  "photo": "img/i-009.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 37,
+  "name": "Glühwein & market drinks",
+  "chapter": "Food & Drink",
+  "text_page": 42,
+  "photo": "img/i-016.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 38,
+  "name": "Lebkuchen hearts",
+  "chapter": "Food & Drink",
+  "text_page": 46,
+  "photo": "img/i-015.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 39,
+  "name": "Bratwurst & savory classics",
+  "chapter": "Food & Drink",
+  "text_page": 44,
+  "photo": "img/i-014.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 40,
+  "name": "Krampus",
+  "chapter": "Austria",
+  "text_page": 83,
+  "photo": "img/i-004.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 41,
+  "name": "Recipe: Zimtsterne & Vanillekipferl",
+  "chapter": "Recipes",
+  "text_page": 160,
+  "photo": "img/i-080.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 42,
+  "name": "Recipe: Homemade Chimney Cake",
+  "chapter": "Recipes",
+  "text_page": 163,
+  "photo": "img/i-081.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 43,
+  "name": "Best souvenirs: nutcrackers",
+  "chapter": "Shopper's Guide",
+  "text_page": 154,
+  "photo": "img/i-077.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 44,
+  "name": "Packing fragile treasures",
+  "chapter": "Shopper's Guide",
+  "text_page": 156,
+  "photo": "img/i-078.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 45,
+  "name": "Epiphany & the Three Kings",
+  "chapter": "Beyond the Markets",
+  "text_page": 169,
+  "photo": "img/i-085.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 46,
+  "name": "New Year's Eve: Silvester",
+  "chapter": "Beyond the Markets",
+  "text_page": 168,
+  "photo": "img/i-084.png",
+  "photo_confirmed": true
+ },
+ {
+  "num": 47,
+  "name": "Budgeting your trip",
+  "chapter": "Planning",
+  "text_page": 32,
+  "photo": "img/i-007.png",
+  "photo_confirmed": true
+ }
+]

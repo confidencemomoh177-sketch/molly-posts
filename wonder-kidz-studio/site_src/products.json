@@ -1,0 +1,142 @@
+[
+ {
+  "slug": "ultimate-christmas-activity-bundle",
+  "section": "kids",
+  "featured": true,
+  "title": "Ultimate Christmas Activity Bundle",
+  "tag": "Best value · 3 books in 1",
+  "desc": "All three Cozy Christmas printables in one download, for kids ages 3–8: 50 coloring pages + 70 fun activities + 25 days of advent magic.",
+  "bullets": [
+   "Cozy Christmas Coloring Book · Printable",
+   "Cozy Christmas Activity Book · Printable",
+   "Cozy Christmas Countdown · Printable advent calendar"
+  ],
+  "price": "$9.99",
+  "button": "Buy the bundle · $9.99",
+  "was": "$13.97 separately",
+  "badge": "Save $4",
+  "gumroad": "https://handelstudio.gumroad.com/l/UltimateChristmasActivityBundleforKidsAges",
+  "img": "img/ultimate-christmas-activity-bundle.jpg",
+  "alt": "Ultimate Christmas Activity Bundle cover: 3 books in 1, the Cozy Christmas Coloring Book, Activity Book and Countdown, instant PDF download",
+  "includes": [
+   "cozy-christmas-coloring-book-printable",
+   "cozy-christmas-activity-book-printable",
+   "cozy-christmas-countdown"
+  ]
+ },
+ {
+  "slug": "cozy-christmas-coloring-book-printable",
+  "section": "kids",
+  "featured": false,
+  "title": "Cozy Christmas Coloring Book · Printable",
+  "tag": "Printable · available now",
+  "desc": "50 printable holiday coloring pages for toddlers and kids ages 3–8, starring Pip, Juniper and Waddles.",
+  "bullets": [
+   "Instant download: print at home, as many copies as your family needs",
+   "The same story as our paperback, ready to print"
+  ],
+  "price": "$3.99",
+  "button": "Buy · $3.99",
+  "was": null,
+  "badge": null,
+  "gumroad": "https://handelstudio.gumroad.com/l/CozyChristmasColoringBookforKids",
+  "img": "img/cozy-christmas-coloring-book-printable.jpg",
+  "alt": "Cozy Christmas Coloring Book cover: Pip the bear, Juniper the bunny and Waddles the penguin in the snow, with 50 Christmas coloring pages"
+ },
+ {
+  "slug": "cozy-christmas-activity-book-printable",
+  "section": "kids",
+  "featured": false,
+  "title": "Cozy Christmas Activity Book · Printable",
+  "tag": "Printable · available now",
+  "desc": "70 fun printable Christmas activities for kids ages 4–8, with Pip, Juniper and Waddles.",
+  "bullets": [
+   "Mazes, dot-to-dot, I Spy, word search, counting, drawing and more",
+   "Instant download: print the favourites again and again"
+  ],
+  "price": "$4.99",
+  "button": "Buy · $4.99",
+  "was": null,
+  "badge": null,
+  "gumroad": "https://handelstudio.gumroad.com/l/CozyChristmasActivityBookforKidsAges",
+  "img": "img/cozy-christmas-activity-book-printable.jpg",
+  "alt": "Cozy Christmas Activity Book cover: Pip, Juniper and Waddles with maze, dot-to-dot, I Spy and word search pages, 70 fun Christmas activities for kids ages 4 to 8"
+ },
+ {
+  "slug": "cozy-christmas-countdown",
+  "section": "kids",
+  "featured": false,
+  "title": "Cozy Christmas Countdown · Printable",
+  "tag": "New · printable advent calendar",
+  "desc": "A 25-day advent activity calendar for kids ages 4–8. Help Pip, Juniper and Waddles find one golden star every day until Christmas.",
+  "bullets": [
+   "A Christmas story, coloring page and craft for every day from December 1st to 25th",
+   "Daily kindness missions, a star tracker and a paper chain countdown"
+  ],
+  "price": "$4.99",
+  "button": "Buy · $4.99",
+  "was": null,
+  "badge": null,
+  "gumroad": "https://handelstudio.gumroad.com/l/CozyChristmasCountdown",
+  "img": "img/cozy-christmas-countdown.jpg",
+  "alt": "Cozy Christmas Countdown cover: Pip, Juniper and Waddles around a glowing star lantern with an advent calendar and paper chain, 25 days of stories, crafts and kindness for ages 4 to 8"
+ },
+ {
+  "slug": "curious-kids-activity-book",
+  "section": "kids",
+  "featured": false,
+  "title": "Curious Kids Activity Book · Printable",
+  "tag": "Printable · available now",
+  "desc": "96 fun printable educational activities for kids ages 4–8.",
+  "bullets": [
+   "Mazes, dot-to-dot, word searches, spot the difference, matching and more",
+   "Instant download: print at home, as many copies as your family needs"
+  ],
+  "price": "$3.99",
+  "button": "Buy · $3.99",
+  "was": null,
+  "badge": null,
+  "gumroad": "https://handelstudio.gumroad.com/l/CuriousKidsActivityBook",
+  "img": "img/curious-kids-activity-book.jpg",
+  "alt": "Curious Kids Activity Book cover: two kids and a friendly robot with maze, dot-to-dot, word search, spot the difference and matching pages, 96 fun activities for ages 4 to 8"
+ },
+ {
+  "slug": "wonder-kids-365",
+  "section": "kids",
+  "featured": false,
+  "title": "Wonder Kids 365: Questions for Curious Kids",
+  "tag": "Printable PDF · available now",
+  "desc": "A question a day to spark wonder, learning and family talk. 365 fun questions for kids ages 4–8.",
+  "bullets": [
+   "Fun facts, answers, activities and family conversation starters",
+   "Animals, space, nature, my body, how things work and Earth"
+  ],
+  "price": "$7.99",
+  "button": "Buy · $7.99",
+  "was": null,
+  "badge": null,
+  "gumroad": "https://handelstudio.gumroad.com/l/xfkjdn",
+  "img": "img/wonder-kids-365.jpg",
+  "alt": "Wonder Kids 365 cover: two kids and a friendly robot reading a glowing book, with topics Animals, Space, Nature, My Body, How Things Work and Earth"
+ },
+ {
+  "slug": "large-print-christmas-word-search-for-seniors",
+  "section": "parents",
+  "featured": false,
+  "title": "Large Print Christmas Word Search for Seniors",
+  "tag": "Printable · available now",
+  "desc": "100 festive large-print word search puzzles. A printable Christmas gift for Mom, Dad and grandparents.",
+  "bullets": [
+   "25-day Advent countdown",
+   "Three gentle levels",
+   "Hidden Christmas messages"
+  ],
+  "price": "$4.99",
+  "button": "Buy · $4.99",
+  "was": null,
+  "badge": null,
+  "gumroad": "https://handelstudio.gumroad.com/l/LargePrintChristmasWordSearchforSeniors",
+  "img": "img/large-print-christmas-word-search-for-seniors.jpg",
+  "alt": "Large Print Christmas Word Search for Seniors cover: a festive word search page with a lantern, hot cocoa and gifts, 100 festive puzzles"
+ }
+]

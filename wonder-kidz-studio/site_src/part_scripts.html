@@ -1,0 +1,36 @@
+<script>
+// Paste Gumroad links here when they're live. Empty means the button shows "Coming soon".
+const LINKS = {
+  freeBundle: "https://handelstudio.gumroad.com/l/SnuggleWoodsChristmasBundle",
+  gumroadStore: "https://handelstudio.gumroad.com/",
+  parentStore: "https://handelstudio.gumroad.com/"
+};
+document.querySelectorAll("[data-link]").forEach(a => {
+  const url = LINKS[a.dataset.link];
+  if (url) { a.href = url; a.target = "_blank"; a.rel = "noopener"; }
+  else {
+    const s = document.createElement("span");
+    s.className = "btn soon";
+    s.textContent = a.dataset.link === "freeBundle" ? "Free download coming soon" : "Shop opening soon";
+    a.replaceWith(s);
+  }
+});
+// Social profiles. Empty means the button shows "soon".
+const SOCIALS = {
+  pinterest: "https://pin.it/1vTdeaMdw",
+  tiktok: "https://www.tiktok.com/@wonderkidz01",
+  instagram: "https://www.instagram.com/wonderkidzstudio01/",
+  youtube: "https://www.youtube.com/channel/UCoTcOowAHH3H11xoEOrQp6Q"
+};
+document.querySelectorAll("[data-social]").forEach(a => {
+  const url = SOCIALS[a.dataset.social];
+  if (url) { a.href = url; a.target = "_blank"; a.rel = "noopener"; }
+  else {
+    const s = document.createElement("span");
+    s.className = "social off";
+    s.innerHTML = a.innerHTML + " <small>soon</small>";
+    a.replaceWith(s);
+  }
+});
+</script>
+

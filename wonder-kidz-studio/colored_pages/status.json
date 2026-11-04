@@ -1,0 +1,74 @@
+{
+ "its_snowing": {
+  "num": 1,
+  "pdf_page": 9,
+  "status": "used",
+  "week": "2026-11-04"
+ },
+ "stockings": {
+  "num": 15,
+  "pdf_page": 37,
+  "status": "used",
+  "week": "2026-11-04"
+ },
+ "hot_cocoa": {
+  "num": 21,
+  "pdf_page": 49,
+  "status": "used",
+  "week": "2026-11-04"
+ },
+ "snowman": {
+  "num": 3,
+  "pdf_page": 13,
+  "status": "used",
+  "week": "2026-11-04"
+ },
+ "cookie_dough": {
+  "num": 18,
+  "pdf_page": 43,
+  "status": "used",
+  "week": "2026-11-04"
+ },
+ "gingerbread_house": {
+  "num": 17,
+  "pdf_page": 41,
+  "status": "used",
+  "week": "2026-11-04"
+ },
+ "christmas_eve": {
+  "num": 41,
+  "pdf_page": 89,
+  "status": "used",
+  "week": "2026-11-04"
+ },
+ "sledding": {
+  "num": 5,
+  "pdf_page": 17,
+  "status": "ready"
+ },
+ "tree_sled": {
+  "num": 10,
+  "pdf_page": 27,
+  "status": "ready"
+ },
+ "ornaments": {
+  "num": 12,
+  "pdf_page": 31,
+  "status": "ready"
+ },
+ "christmas_cards": {
+  "num": 25,
+  "pdf_page": 57,
+  "status": "ready"
+ },
+ "toy_train": {
+  "num": 30,
+  "pdf_page": 67,
+  "status": "ready"
+ },
+ "christmas_morning": {
+  "num": 45,
+  "pdf_page": 97,
+  "status": "ready"
+ }
+}

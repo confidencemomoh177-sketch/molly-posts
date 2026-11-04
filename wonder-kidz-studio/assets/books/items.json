@@ -1,0 +1,986 @@
+[
+ {
+  "book": "activity",
+  "num": 1,
+  "name": "Find the Sled!",
+  "page": 7,
+  "photo_page": 7,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 2,
+  "name": "Cocoa Time!",
+  "page": 8,
+  "photo_page": 8,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 3,
+  "name": "Paper Chain Path",
+  "page": 9,
+  "photo_page": 9,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 4,
+  "name": "Special Delivery!",
+  "page": 10,
+  "photo_page": 10,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 5,
+  "name": "Through the Snowy Woods",
+  "page": 11,
+  "photo_page": 11,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 6,
+  "name": "The Lost Mitten",
+  "page": 12,
+  "photo_page": 12,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 7,
+  "name": "Gingerbread Maze",
+  "page": 13,
+  "photo_page": 13,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 8,
+  "name": "Star Light Maze",
+  "page": 14,
+  "photo_page": 14,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 9,
+  "name": "Connect 1 to 10",
+  "page": 15,
+  "photo_page": 15,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 10,
+  "name": "Connect 1 to 15",
+  "page": 16,
+  "photo_page": 16,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 11,
+  "name": "Connect 1 to 20",
+  "page": 17,
+  "photo_page": 17,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 12,
+  "name": "Connect 1 to 20",
+  "page": 18,
+  "photo_page": 18,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 13,
+  "name": "Connect 1 to 25",
+  "page": 19,
+  "photo_page": 19,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 14,
+  "name": "Connect 1 to 30",
+  "page": 20,
+  "photo_page": 20,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 15,
+  "name": "Count the Ornaments",
+  "page": 21,
+  "photo_page": 21,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 16,
+  "name": "Count the Presents",
+  "page": 22,
+  "photo_page": 22,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 17,
+  "name": "Cookie Count",
+  "page": 23,
+  "photo_page": 23,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 18,
+  "name": "I Spy in the Snow",
+  "page": 24,
+  "photo_page": 24,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 19,
+  "name": "I Spy at the Bakery",
+  "page": 25,
+  "photo_page": 25,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 20,
+  "name": "I Spy Mittens",
+  "page": 26,
+  "photo_page": 26,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 21,
+  "name": "I Spy at the Fair",
+  "page": 27,
+  "photo_page": 27,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 22,
+  "name": "More or Less?",
+  "page": 28,
+  "photo_page": 28,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 23,
+  "name": "Spot Five Differences",
+  "page": 29,
+  "photo_page": 29,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 24,
+  "name": "Spot Five Differences",
+  "page": 30,
+  "photo_page": 30,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 25,
+  "name": "Spot Five Differences",
+  "page": 31,
+  "photo_page": 31,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 26,
+  "name": "Spot Five Differences",
+  "page": 32,
+  "photo_page": 32,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 27,
+  "name": "Spot Five Differences",
+  "page": 33,
+  "photo_page": 33,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 28,
+  "name": "Spot Five Differences",
+  "page": 34,
+  "photo_page": 34,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 29,
+  "name": "Shadow Match",
+  "page": 35,
+  "photo_page": 35,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 30,
+  "name": "Christmas Shadows",
+  "page": 36,
+  "photo_page": 36,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 31,
+  "name": "Which One Is Different?",
+  "page": 37,
+  "photo_page": 37,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 32,
+  "name": "Which One Is Different?",
+  "page": 38,
+  "photo_page": 38,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 33,
+  "name": "Find the Pairs",
+  "page": 39,
+  "photo_page": 39,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 34,
+  "name": "What Comes Next?",
+  "page": 40,
+  "photo_page": 40,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 35,
+  "name": "Big, Bigger, Biggest",
+  "page": 41,
+  "photo_page": 41,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 36,
+  "name": "Cozy Christmas Words",
+  "page": 42,
+  "photo_page": 42,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 37,
+  "name": "Christmas Fair Words",
+  "page": 43,
+  "photo_page": 43,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 38,
+  "name": "Snuggle Woods Friends",
+  "page": 44,
+  "photo_page": 44,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 39,
+  "name": "Christmas Picture Sudoku",
+  "page": 45,
+  "photo_page": 45,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 40,
+  "name": "Christmas Picture Sudoku",
+  "page": 46,
+  "photo_page": 46,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 41,
+  "name": "Christmas Picture Sudoku",
+  "page": 47,
+  "photo_page": 47,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 42,
+  "name": "Trace the Paths",
+  "page": 48,
+  "photo_page": 48,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 43,
+  "name": "Snowy Lines",
+  "page": 49,
+  "photo_page": 49,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 44,
+  "name": "Trace the Shapes",
+  "page": 50,
+  "photo_page": 50,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 45,
+  "name": "Trace and Write: TREE \u00b7 STAR \u00b7 GIFT",
+  "page": 51,
+  "photo_page": 51,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 46,
+  "name": "Trace and Write: SNOW \u00b7 BELL \u00b7 SLED",
+  "page": 52,
+  "photo_page": 52,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 47,
+  "name": "Trace and Write: PIP \u00b7 JUNIPER \u00b7 WADDLES",
+  "page": 53,
+  "photo_page": 53,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 48,
+  "name": "Trace and Write: MERRY CHRISTMAS",
+  "page": 54,
+  "photo_page": 54,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 49,
+  "name": "Count and Write: Trace the numbers 1\u201310",
+  "page": 55,
+  "photo_page": 55,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 50,
+  "name": "Draw the Other Half: Christmas Tree",
+  "page": 56,
+  "photo_page": 56,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 51,
+  "name": "Draw the Other Half: Waddles",
+  "page": 57,
+  "photo_page": 57,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 52,
+  "name": "Draw the Other Half: Gingerbread House",
+  "page": 58,
+  "photo_page": 58,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 53,
+  "name": "How to Draw Pip in 4 Steps",
+  "page": 59,
+  "photo_page": 59,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 54,
+  "name": "How to Draw Juniper in 4 Steps",
+  "page": 60,
+  "photo_page": 60,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 55,
+  "name": "How to Draw Waddles in 4 Steps",
+  "page": 61,
+  "photo_page": 61,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 56,
+  "name": "Draw What's Inside the Present!",
+  "page": 62,
+  "photo_page": 62,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 57,
+  "name": "Christmas Color by Number",
+  "page": 63,
+  "photo_page": 63,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 58,
+  "name": "Christmas Color by Number",
+  "page": 64,
+  "photo_page": 64,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 59,
+  "name": "Christmas Color by Number",
+  "page": 65,
+  "photo_page": 65,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 60,
+  "name": "Christmas Color by Number",
+  "page": 66,
+  "photo_page": 66,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 61,
+  "name": "Christmas Color by Number",
+  "page": 67,
+  "photo_page": 67,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 62,
+  "name": "Christmas Color by Number",
+  "page": 68,
+  "photo_page": 68,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 63,
+  "name": "Christmas Tic-Tac-Toe",
+  "page": 69,
+  "photo_page": 69,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 64,
+  "name": "Dots and Boxes",
+  "page": 70,
+  "photo_page": 70,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 65,
+  "name": "Design a Christmas Sweater for Pip!",
+  "page": 71,
+  "photo_page": 71,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 66,
+  "name": "Decorate the Cookies!",
+  "page": 72,
+  "photo_page": 72,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 67,
+  "name": "My Letter to Santa",
+  "page": 73,
+  "photo_page": 73,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 68,
+  "name": "My Christmas Wish List",
+  "page": 74,
+  "photo_page": 74,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 69,
+  "name": "Finish the Story!",
+  "page": 75,
+  "photo_page": 75,
+  "confirmed": true
+ },
+ {
+  "book": "activity",
+  "num": 70,
+  "name": "Waddles's Christmas Jokes!",
+  "page": 76,
+  "photo_page": 76,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 1,
+  "name": "One morning, Waddles woke up and gasped. \"It's snowing!\"",
+  "page": 9,
+  "photo_page": 9,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 2,
+  "name": "Pip, Juniper and Waddles ran outside to catch snowflakes.",
+  "page": 11,
+  "photo_page": 11,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 3,
+  "name": "Roll, roll, roll! They built the biggest snowman in Snuggle Woods.",
+  "page": 13,
+  "photo_page": 13,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 4,
+  "name": "Whoosh! A soft snowball fight! Everybody giggled.",
+  "page": 15,
+  "photo_page": 15,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 5,
+  "name": "Waddles zoomed down the hill on his belly. \"Wheee!\"",
+  "page": 17,
+  "photo_page": 17,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 6,
+  "name": "Flap, flap! Three snow angels in a row.",
+  "page": 19,
+  "photo_page": 19,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 7,
+  "name": "Pip wrote his Christmas wish list. What would you wish for?",
+  "page": 21,
+  "photo_page": 21,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 8,
+  "name": "Juniper made a long, long paper chain to hang in the house.",
+  "page": 23,
+  "photo_page": 23,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 9,
+  "name": "At the tree farm, the friends picked the perfect Christmas tree.",
+  "page": 25,
+  "photo_page": 25,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 10,
+  "name": "Heave-ho! They pulled their tree home on the sled.",
+  "page": 27,
+  "photo_page": 27,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 11,
+  "name": "The tree stood tall and green in the cozy living room.",
+  "page": 29,
+  "photo_page": 29,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 12,
+  "name": "Juniper hung round, shiny ornaments, one by one.",
+  "page": 31,
+  "photo_page": 31,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 13,
+  "name": "Waddles climbed on Pip's shoulders to reach the very top!",
+  "page": 33,
+  "photo_page": 33,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 14,
+  "name": "Twinkle, twinkle! They wrapped lights around the window.",
+  "page": 35,
+  "photo_page": 35,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 15,
+  "name": "Three stockings hung by the fireplace, one for each friend.",
+  "page": 37,
+  "photo_page": 37,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 16,
+  "name": "Juniper and Pip made a wreath for the front door.",
+  "page": 39,
+  "photo_page": 39,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 17,
+  "name": "Candy, icing and gumdrops: time for a gingerbread house!",
+  "page": 41,
+  "photo_page": 41,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 18,
+  "name": "Stir, stir, stir! Pip mixed the cookie dough.",
+  "page": 43,
+  "photo_page": 43,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 19,
+  "name": "Cookie cutters made hearts, trees and gingerbread friends.",
+  "page": 45,
+  "photo_page": 45,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 20,
+  "name": "Icing dots, icing lines\u2026 the cookies looked yummy!",
+  "page": 47,
+  "photo_page": 47,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 21,
+  "name": "Hot cocoa with marshmallows: the coziest drink of all.",
+  "page": 49,
+  "photo_page": 49,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 22,
+  "name": "The friends built a blanket fort and read a story inside.",
+  "page": 51,
+  "photo_page": 51,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 23,
+  "name": "Click, click went the needles. Juniper knitted a scarf for Waddles.",
+  "page": 53,
+  "photo_page": 53,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 24,
+  "name": "Shh! Pip was wrapping secret presents.",
+  "page": 55,
+  "photo_page": 55,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 25,
+  "name": "They made Christmas cards for all their friends.",
+  "page": 57,
+  "photo_page": 57,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 26,
+  "name": "Swoosh! Waddles twirled on the frozen pond.",
+  "page": 59,
+  "photo_page": 59,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 27,
+  "name": "The friends filled a bird feeder for the winter birds.",
+  "page": 61,
+  "photo_page": 61,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 28,
+  "name": "Fa-la-la! They sang carols at Grandma Owl's door.",
+  "page": 63,
+  "photo_page": 63,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 29,
+  "name": "The Snuggle Woods Christmas market was full of treats.",
+  "page": 65,
+  "photo_page": 65,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 30,
+  "name": "Choo-choo! A little toy train circled the Christmas tree.",
+  "page": 67,
+  "photo_page": 67,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 31,
+  "name": "Pip brought a basket of cookies to Grandma Owl.",
+  "page": 69,
+  "photo_page": 69,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 32,
+  "name": "Oh no! Little Squirrel lost his mitten. The friends found it!",
+  "page": 71,
+  "photo_page": 71,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 33,
+  "name": "They made a yummy garland of berries and seeds for the forest animals.",
+  "page": 73,
+  "photo_page": 73,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 34,
+  "name": "They decorated a tree outside, just for the forest animals.",
+  "page": 75,
+  "photo_page": 75,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 35,
+  "name": "A snowy night walk under the big round moon.",
+  "page": 77,
+  "photo_page": 77,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 36,
+  "name": "The Snuggle Woods Christmas play! Everyone clapped.",
+  "page": 79,
+  "photo_page": 79,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 37,
+  "name": "Antlers on! The friends played reindeer.",
+  "page": 81,
+  "photo_page": 81,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 38,
+  "name": "Matching pajamas and a pillow party!",
+  "page": 83,
+  "photo_page": 83,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 39,
+  "name": "Juniper and Waddles watched the snow fall from the window seat.",
+  "page": 85,
+  "photo_page": 85,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 40,
+  "name": "Into the mailbox went their letter to Santa!",
+  "page": 87,
+  "photo_page": 87,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 41,
+  "name": "It's Christmas Eve! Cookies and milk for Santa.",
+  "page": 89,
+  "photo_page": 89,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 42,
+  "name": "And carrots for the reindeer, of course!",
+  "page": 91,
+  "photo_page": 91,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 43,
+  "name": "Snug in bed, Juniper read one last Christmas story.",
+  "page": 93,
+  "photo_page": 93,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 44,
+  "name": "Pip dreamed of a sleigh flying across the sky.",
+  "page": 95,
+  "photo_page": 95,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 45,
+  "name": "Christmas morning! The friends raced to the tree.",
+  "page": 97,
+  "photo_page": 97,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 46,
+  "name": "Rip, rip, hooray! Presents for everyone!",
+  "page": 99,
+  "photo_page": 99,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 47,
+  "name": "Pip gave Waddles a brand-new sled. Waddles hugged him tight!",
+  "page": 101,
+  "photo_page": 101,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 48,
+  "name": "Christmas breakfast: snowman pancakes!",
+  "page": 103,
+  "photo_page": 103,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 49,
+  "name": "All of Snuggle Woods came for Christmas dinner.",
+  "page": 105,
+  "photo_page": 105,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": 50,
+  "name": "\"Merry Christmas!\" said Pip, Juniper and Waddles. The End.",
+  "page": 107,
+  "photo_page": 107,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": null,
+  "name": "Draw Your Own Christmas Tree",
+  "page": 109,
+  "photo_page": 109,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": null,
+  "name": "Draw Your Own Stocking",
+  "page": 111,
+  "photo_page": 111,
+  "confirmed": true
+ },
+ {
+  "book": "coloring",
+  "num": null,
+  "name": "Draw Yourself in Snuggle Woods",
+  "page": 113,
+  "photo_page": 113,
+  "confirmed": true
+ }
+]

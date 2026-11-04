@@ -6,7 +6,7 @@ Each Sunday's scheduled run follows this file from top to bottom. It builds and 
 - Metricool brand "Wonder Kidz Studio", blogId **7850012**. Networks: TikTok, Instagram (REEL), YouTube (short), Pinterest.
 - Pinterest boardId **1140888586794329019** (board "Christmas Activities for Kids").
 - Slots: **09:00, 13:00, 20:00 America/New_York**.
-- Every post links to the website: `https://claude.ai/artifact/YRWd9nr21awo2dCQRfiYBm`. The short link `https://tinyurl.com/wonderkidz01` goes to the same site.
+- Every post links to the website: `https://wonderkidzstudio.netlify.app`. The short link `https://tinyurl.com/wonderkidz01` goes to the same site.
   - Captions say "link in bio".
   - YouTube descriptions and the pinned comment use the short link.
   - The Pinterest pinLink is the site URL.
@@ -68,3 +68,7 @@ Each Sunday's scheduled run follows this file from top to bottom. It builds and 
      - Metricool analytics for last week's posts, if available (top posts by views or saves);
      - anything she needs to do.
    - If a step fails, still send the report and say exactly what failed.
+
+## Website hosting
+- Live site: https://wonderkidzstudio.netlify.app (Netlify project "wonderkidzstudio", auto-deploys from this repo).
+- Source: `wonder-kidz-studio/site/index.html`. To change the website, edit that file, commit and push to `main`; Netlify publishes within about a minute.

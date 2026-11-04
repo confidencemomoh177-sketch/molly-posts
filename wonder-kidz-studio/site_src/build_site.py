@@ -108,6 +108,7 @@ def head(title, desc, url, image, og_type='website', extra_meta='', jsonld=None)
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{url}">
 <meta name="theme-color" content="#1C4A33">
+<meta name="p:domain_verify" content="a2a2ac66b967b897bfebe380d8e60487"/>
 <link rel="icon" type="image/png" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:site_name" content="{BRAND}">

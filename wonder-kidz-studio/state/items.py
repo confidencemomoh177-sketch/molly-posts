@@ -2,14 +2,15 @@
 BN = "https://www.barnesandnoble.com/w/cozy-christmas-coloring-book-for-toddlers-and-kids-ages-3-8-wonder-kidz-studio/1151845334?ean=9798179099178"
 FREE = "https://handelstudio.gumroad.com/l/SnuggleWoodsChristmasBundle"
 SHORT = "https://tinyurl.com/wonderkidz01"
+SITE = "https://claude.ai/artifact/YRWd9nr21awo2dCQRfiYBm"   # every post links here; Gumroad links go on the site only
 
 A = dict(book="activity", inside_title="What kids practise", page_title="From our activity pages",
          page_extra="+ 34 free printables (link in bio)", more_title="34 free printables",
          s4_sub=["Mazes, I Spy, coloring & more", "Free PDF · print at home"], pin_cta="Get free printables",
-         pin_link=FREE, swipe_text="swipe to try it")
+         pin_link=SITE, swipe_text="swipe to try it")
 C = dict(book="coloring", inside_title="Why kids love it", page_title="Page {num} of 50",
          page_extra="+ 34 free printables inside", more_title="50 pages like this",
-         pin_cta="Get the coloring book", pin_link=BN, swipe_text="swipe to see the page")
+         pin_cta="Get the coloring book", pin_link=SITE, swipe_text="swipe to see the page")
 
 ITEMS = [
  dict(A, key="gingerbread_maze", pdf_page=13, num=7, page_cut=1500, hook_type="challenge",

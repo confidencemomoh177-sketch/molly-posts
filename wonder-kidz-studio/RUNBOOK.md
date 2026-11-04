@@ -71,4 +71,6 @@ Each Sunday's scheduled run follows this file from top to bottom. It builds and 
 
 ## Website hosting
 - Live site: https://wonderkidzstudio.netlify.app (Netlify project "wonderkidzstudio", auto-deploys from this repo).
-- Source: `wonder-kidz-studio/site/index.html`. To change the website, edit that file, commit and push to `main`; Netlify publishes within about a minute.
+- The site is GENERATED: edit `site_src/` (products.json for products, home_body.html for homepage text, head_styles.html for styles), then run `python3 site_src/build_site.py`, commit and push to `main`; Netlify publishes within about a minute. Never hand-edit files in `site/` except images in `site/img/`.
+- New product: add a square ~1000px cover as `site/img/<slug>.jpg` and an entry in `site_src/products.json`; the build makes its card, its own page at /<slug>/, the sitemap entry and Pinterest/Google tags.
+- Product pages can be used as Pinterest pin links (e.g. https://wonderkidzstudio.netlify.app/cozy-christmas-countdown/).

@@ -293,6 +293,26 @@ html{scroll-behavior:smooth}
 .pp-more h2{margin:0 0 18px}
 @media (max-width:820px){.pp{grid-template-columns:1fr;gap:26px}.pp-cover{max-width:460px}}
 .nf{min-height:60vh;display:grid;place-items:center;text-align:center;padding:60px 16px}
+.xmas-bar{background:#C62033;color:#fff;font-weight:700;font-size:.95rem;text-align:center;padding:9px 44px;position:relative;line-height:1.35}
+.xmas-bar a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.xmas-bar .num{background:#FFD257;color:#1f2433;border-radius:8px;padding:1px 8px;margin:0 2px;font-weight:800}
+.xmas-bar button{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:0;color:#fff;font-size:1.3rem;cursor:pointer;padding:4px 8px;line-height:1}
+.free-pages{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.free-card{background:var(--card,#fff);border:3px solid #1f2433;border-radius:var(--r,18px);box-shadow:0 6px 0 #1f2433;padding:18px;display:grid;grid-template-columns:180px 1fr;gap:18px;align-items:center}
+.free-card img{width:100%;height:auto;border:2px solid #1f2433;border-radius:8px;background:#fff;display:block}
+.free-card .body{display:grid;gap:8px;align-content:start}
+.free-card h3{margin:0}
+.free-card p{margin:0;color:var(--ink-soft,#5a5f6e);font-size:.98rem}
+.free-card .btn{justify-self:start;margin-top:6px}
+@media (max-width:900px){.free-pages{grid-template-columns:1fr}}
+@media (max-width:480px){.free-card{grid-template-columns:110px 1fr;gap:14px;padding:14px}}
+.faq{display:grid;gap:12px;max-width:820px}
+.faq details{background:var(--card,#fff);border:2px solid #1f2433;border-radius:14px;padding:14px 18px}
+.faq summary{font-weight:800;cursor:pointer;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:1.3rem;line-height:1}
+.faq details[open] summary::after{content:"–"}
+.faq details p{margin:10px 0 0;color:var(--ink-soft,#5a5f6e)}
 .nf svg.pip{width:140px;height:160px}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Cozy Christmas Activity Book · Printable", "image": ["https://wonderkidzstudio.netlify.app/img/cozy-christmas-activity-book-printable.jpg"], "description": "70 fun printable Christmas activities for kids ages 4–8, with Pip, Juniper and Waddles.", "brand": {"@type": "Brand", "name": "Wonder Kidz Studio"}, "sku": "cozy-christmas-activity-book-printable", "offers": {"@type": "Offer", "url": "https://wonderkidzstudio.netlify.app/cozy-christmas-activity-book-printable/", "priceCurrency": "USD", "price": "4.99", "availability": "https://schema.org/InStock"}}</script>
@@ -358,6 +378,14 @@ html{scroll-behavior:smooth}
     </symbol>
   </defs>
 </svg>
+<div class="xmas-bar" id="xmasBar" hidden><span id="xmasText"></span><button type="button" aria-label="Close" onclick="document.getElementById('xmasBar').hidden=true;try{sessionStorage.setItem('xmasBarClosed','1')}catch(e){}">×</button></div>
+<script>(function(){try{if(sessionStorage.getItem('xmasBarClosed'))return}catch(e){}
+var n=new Date(),y=n.getFullYear(),t=new Date(n.getFullYear(),n.getMonth(),n.getDate()),x=new Date(y,11,25),d=Math.round((x-t)/864e5),el=document.getElementById('xmasText'),b=document.getElementById('xmasBar'),h='';
+if(d<0||d>60)return;
+if(d===0)h='🎄 Merry Christmas from Pip, Juniper and Waddles! <a href="/#free-pages">Grab a free coloring page</a>';
+else if(n.getMonth()===11)h='🌟 Day <span class="num">'+n.getDate()+'</span> of the Christmas countdown: '+d+(d===1?' day':' days')+' to go! <a href="/cozy-christmas-countdown/">Get the Cozy Christmas Countdown</a>';
+else h='🎄 Only <span class="num">'+d+'</span> days until Christmas! The 25-day countdown starts December 1st. <a href="/cozy-christmas-countdown/">See the Cozy Christmas Countdown</a>';
+el.innerHTML=h;b.hidden=false;})();</script>
 <nav class="nav" aria-label="Main">
   <div class="wrap">
     <a class="logo" href="/#top">

@@ -14,6 +14,8 @@ TODAY = datetime.date.today().isoformat()
 
 P = json.load(open(os.path.join(HERE, 'products.json')))
 BY = {p['slug']: p for p in P}
+FREE = json.load(open(os.path.join(HERE, 'free_pages.json')))
+FAQ = json.load(open(os.path.join(HERE, 'faq.json')))
 part = lambda n: open(os.path.join(HERE, n)).read()
 STYLES, SPRITE, NAV, FOOTER, SCRIPTS = part('head_styles.html'), part('part_sprite.html'), part('part_nav.html'), part('part_footer.html'), part('part_scripts.html')
 e = lambda s: html.escape(s, quote=True)
@@ -51,6 +53,26 @@ html{scroll-behavior:smooth}
 .pp-more h2{margin:0 0 18px}
 @media (max-width:820px){.pp{grid-template-columns:1fr;gap:26px}.pp-cover{max-width:460px}}
 .nf{min-height:60vh;display:grid;place-items:center;text-align:center;padding:60px 16px}
+.xmas-bar{background:#C62033;color:#fff;font-weight:700;font-size:.95rem;text-align:center;padding:9px 44px;position:relative;line-height:1.35}
+.xmas-bar a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.xmas-bar .num{background:#FFD257;color:#1f2433;border-radius:8px;padding:1px 8px;margin:0 2px;font-weight:800}
+.xmas-bar button{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:0;color:#fff;font-size:1.3rem;cursor:pointer;padding:4px 8px;line-height:1}
+.free-pages{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.free-card{background:var(--card,#fff);border:3px solid #1f2433;border-radius:var(--r,18px);box-shadow:0 6px 0 #1f2433;padding:18px;display:grid;grid-template-columns:180px 1fr;gap:18px;align-items:center}
+.free-card img{width:100%;height:auto;border:2px solid #1f2433;border-radius:8px;background:#fff;display:block}
+.free-card .body{display:grid;gap:8px;align-content:start}
+.free-card h3{margin:0}
+.free-card p{margin:0;color:var(--ink-soft,#5a5f6e);font-size:.98rem}
+.free-card .btn{justify-self:start;margin-top:6px}
+@media (max-width:900px){.free-pages{grid-template-columns:1fr}}
+@media (max-width:480px){.free-card{grid-template-columns:110px 1fr;gap:14px;padding:14px}}
+.faq{display:grid;gap:12px;max-width:820px}
+.faq details{background:var(--card,#fff);border:2px solid #1f2433;border-radius:14px;padding:14px 18px}
+.faq summary{font-weight:800;cursor:pointer;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:1.3rem;line-height:1}
+.faq details[open] summary::after{content:"–"}
+.faq details p{margin:10px 0 0;color:var(--ink-soft,#5a5f6e)}
 .nf svg.pip{width:140px;height:160px}
 </style>"""
 
@@ -144,15 +166,78 @@ def short(s, n=158):
     return s if len(s) <= n else s[:n - 1].rsplit(' ', 1)[0] + '…'
 
 
+BANNER = """<div class="xmas-bar" id="xmasBar" hidden><span id="xmasText"></span><button type="button" aria-label="Close" onclick="document.getElementById('xmasBar').hidden=true;try{sessionStorage.setItem('xmasBarClosed','1')}catch(e){}">×</button></div>
+<script>(function(){try{if(sessionStorage.getItem('xmasBarClosed'))return}catch(e){}
+var n=new Date(),y=n.getFullYear(),t=new Date(n.getFullYear(),n.getMonth(),n.getDate()),x=new Date(y,11,25),d=Math.round((x-t)/864e5),el=document.getElementById('xmasText'),b=document.getElementById('xmasBar'),h='';
+if(d<0||d>60)return;
+if(d===0)h='🎄 Merry Christmas from Pip, Juniper and Waddles! <a href="/#free-pages">Grab a free coloring page</a>';
+else if(n.getMonth()===11)h='🌟 Day <span class="num">'+n.getDate()+'</span> of the Christmas countdown: '+d+(d===1?' day':' days')+' to go! <a href="/cozy-christmas-countdown/">Get the Cozy Christmas Countdown</a>';
+else h='🎄 Only <span class="num">'+d+'</span> days until Christmas! The 25-day countdown starts December 1st. <a href="/cozy-christmas-countdown/">See the Cozy Christmas Countdown</a>';
+el.innerHTML=h;b.hidden=false;})();</script>
+"""
+
+
+def with_banner(html_text):
+    return html_text.replace('<nav class="nav"', BANNER + '<nav class="nav"', 1)
+
+
+def free_pages_html():
+    sm, wk = FREE['sample'], FREE['weekly']
+    return f'''  <section class="section" id="free-pages" aria-labelledby="freepages-h">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">Free to print</span>
+        <h2 id="freepages-h">Free coloring pages</h2>
+        <p>Try a page from our Cozy Christmas Coloring Book before you buy. Every Sunday there's a new free page too.</p>
+      </div>
+      <div class="free-pages">
+        <article class="free-card">
+          <a href="/{sm['pdf']}" target="_blank" rel="noopener"><img src="/{sm['img']}" alt="Free sample coloring page: {e(sm['title'])}" width="600" height="776" loading="lazy"></a>
+          <div class="body">
+            <span class="tag on">Free sample</span>
+            <h3>Page {sm['num']}: “{e(sm['title'])}”</h3>
+            <p>The first page of our 50-page Christmas coloring story. Print it at home and see if your little one loves it.</p>
+            <a class="btn berry" href="/{sm['pdf']}" target="_blank" rel="noopener" download>Download free PDF</a>
+          </div>
+        </article>
+        <article class="free-card">
+          <a href="/{wk['pdf']}" target="_blank" rel="noopener"><img src="/{wk['img']}" alt="Free coloring page of the week: {e(wk['title'])}" width="600" height="776" loading="lazy"></a>
+          <div class="body">
+            <span class="tag on">Page of the week</span>
+            <h3>{e(wk['title'])}</h3>
+            <p>{e(wk['caption'])} A new free page every Sunday, so come back next week!</p>
+            <a class="btn berry" href="/{wk['pdf']}" target="_blank" rel="noopener" download>Download this week's page</a>
+          </div>
+        </article>
+      </div>
+      <p class="pp-note" style="margin-top:16px">Letter size (8.5 × 11 in). Crayons or colored pencils work best.</p>
+    </div>
+  </section>'''
+
+
+def faq_html():
+    items = ''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in FAQ)
+    return f'''  <section class="section" id="faq" aria-labelledby="faq-h">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">Questions</span>
+        <h2 id="faq-h">Frequently asked questions</h2>
+      </div>
+      <div class="faq">{items}</div>
+    </div>
+  </section>'''
+
+
 def build_home():
-    body = part('home_body.html').replace('{{KIDS_PRODUCTS}}', section_html('kids')).replace('{{PARENT_PRODUCTS}}', section_html('parents'))
+    body = part('home_body.html').replace('{{KIDS_PRODUCTS}}', section_html('kids')).replace('{{PARENT_PRODUCTS}}', section_html('parents')).replace('{{FREE_PAGES}}', free_pages_html()).replace('{{FAQ}}', faq_html())
     desc = "Printable coloring and activity books for kids ages 3–8 starring Pip, Juniper and Waddles. Instant PDF downloads, plus printables for parents and our Cozy Christmas paperback."
     ld = [{"@context": "https://schema.org", "@type": "Organization", "name": BRAND, "url": SITE + '/', "logo": SITE + '/apple-touch-icon.png',
            "sameAs": ["https://pin.it/1vTdeaMdw", "https://www.tiktok.com/@wonderkidz01", "https://www.instagram.com/wonderkidzstudio01/", "https://www.youtube.com/channel/UCoTcOowAHH3H11xoEOrQp6Q"]},
           {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": SITE + '/'},
+          {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in FAQ]},
           {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": page_url(p), "name": p['title']} for i, p in enumerate(P)]}]
     h = head(f"{BRAND} | Printable Coloring & Activity Books for Kids 3–8", desc, SITE + '/', SITE + '/img/og-home.jpg', jsonld=ld)
-    open(os.path.join(OUT, 'index.html'), 'w').write(h + body.replace('</script>', '</script>', 1) + '\n' + GUM + '\n</body>\n</html>\n')
+    open(os.path.join(OUT, 'index.html'), 'w').write(h + with_banner(body).replace('</script>', '</script>', 1) + '\n' + GUM + '\n</body>\n</html>\n')
 
 
 def build_product(p):
@@ -216,7 +301,7 @@ def build_product(p):
 </html>
 '''
     d = os.path.join(OUT, p['slug']); os.makedirs(d, exist_ok=True)
-    open(os.path.join(d, 'index.html'), 'w').write(h + body)
+    open(os.path.join(d, 'index.html'), 'w').write(h + with_banner(body))
 
 
 def build_404():
@@ -233,7 +318,7 @@ def build_404():
 </body>
 </html>
 '''
-    open(os.path.join(OUT, '404.html'), 'w').write(h.replace('<meta name="theme-color"', '<meta name="robots" content="noindex">\n<meta name="theme-color"') + body)
+    open(os.path.join(OUT, '404.html'), 'w').write(with_banner(h.replace('<meta name="theme-color"', '<meta name="robots" content="noindex">\n<meta name="theme-color"') + body))
 
 
 def build_meta_files():

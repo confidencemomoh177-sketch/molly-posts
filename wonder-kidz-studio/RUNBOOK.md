@@ -74,3 +74,8 @@ Each Sunday's scheduled run follows this file from top to bottom. It builds and 
 - The site is GENERATED: edit `site_src/` (products.json for products, home_body.html for homepage text, head_styles.html for styles), then run `python3 site_src/build_site.py`, commit and push to `main`; Netlify publishes within about a minute. Never hand-edit files in `site/` except images in `site/img/`.
 - New product: add a square ~1000px cover as `site/img/<slug>.jpg` and an entry in `site_src/products.json`; the build makes its card, its own page at /<slug>/, the sitemap entry and Pinterest/Google tags.
 - Product pages can be used as Pinterest pin links (e.g. https://wonderkidzstudio.netlify.app/cozy-christmas-countdown/).
+
+## Weekly free coloring page (website)
+Every Sunday run, after scheduling: pick a coloring page (1–50) that is NOT in `site_src/free_pages.json` (sample, weekly or history) and preferably not one being posted this week, then run
+`python3 site_src/rotate_free_page.py <num> "<Short title>"` and `python3 site_src/build_site.py`, look at `site/img/free-coloring-page-of-the-week.jpg`, commit and push. Mention the new free page in the report.
+Never give away more than one page a week; the sample page (page 1) stays fixed.

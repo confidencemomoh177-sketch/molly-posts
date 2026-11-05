@@ -1,0 +1,16 @@
+{
+ "sample": {
+  "title": "It's snowing!",
+  "num": 1,
+  "pdf": "free/cozy-christmas-free-sample-page.pdf",
+  "img": "img/cozy-christmas-free-sample-page.jpg"
+ },
+ "weekly": {
+  "title": "Catching snowflakes",
+  "caption": "Pip, Juniper and Waddles ran outside to catch snowflakes.",
+  "num": 2,
+  "week_of": "2026-11-05",
+  "pdf": "free/free-coloring-page-of-the-week.pdf",
+  "img": "img/free-coloring-page-of-the-week.jpg"
+ }
+}

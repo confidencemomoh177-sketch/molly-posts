@@ -64,6 +64,7 @@ html{scroll-behavior:smooth}
 .free-card h3{margin:0}
 .free-card p{margin:0;color:var(--ink-soft,#5a5f6e);font-size:.98rem}
 .free-card .btn{justify-self:start;margin-top:6px}
+#free-pages,#faq,#shop,#parents,#free{scroll-margin-top:90px}
 @media (max-width:900px){.free-pages{grid-template-columns:1fr}}
 @media (max-width:480px){.free-card{grid-template-columns:110px 1fr;gap:14px;padding:14px}}
 .faq{display:grid;gap:12px;max-width:820px}
@@ -197,7 +198,7 @@ def free_pages_html():
             <span class="tag on">Free sample</span>
             <h3>Page {sm['num']}: “{e(sm['title'])}”</h3>
             <p>The first page of our 50-page Christmas coloring story. Print it at home and see if your little one loves it.</p>
-            <a class="btn berry" href="/{sm['pdf']}" target="_blank" rel="noopener" download>Download free PDF</a>
+            <a class="btn berry" href="/{sm['pdf']}" target="_blank" rel="noopener">Download free PDF</a>
           </div>
         </article>
         <article class="free-card">
@@ -206,7 +207,7 @@ def free_pages_html():
             <span class="tag on">Page of the week</span>
             <h3>{e(wk['title'])}</h3>
             <p>{e(wk['caption'])} A new free page every Sunday, so come back next week!</p>
-            <a class="btn berry" href="/{wk['pdf']}" target="_blank" rel="noopener" download>Download this week's page</a>
+            <a class="btn berry" href="/{wk['pdf']}" target="_blank" rel="noopener">Download this week's page</a>
           </div>
         </article>
       </div>

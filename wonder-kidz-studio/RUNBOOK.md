@@ -79,3 +79,8 @@ Each Sunday's scheduled run follows this file from top to bottom. It builds and 
 Every Sunday run, after scheduling: pick a coloring page (1–50) that is NOT in `site_src/free_pages.json` (sample, weekly or history) and preferably not one being posted this week, then run
 `python3 site_src/rotate_free_page.py <num> "<Short title>"` and `python3 site_src/build_site.py`, look at `site/img/free-coloring-page-of-the-week.jpg`, commit and push. Mention the new free page in the report.
 Never give away more than one page a week; the sample page (page 1) stays fixed.
+
+## Email list (MailerLite)
+- The site's green "Snuggle Woods Story Club" section (#signup) posts to MailerLite form 203277074897568908 (account 2770709). Double opt-in is on.
+- Confirmed sign-ups join the group "Website sign-ups (free coloring page)". The automation "Welcome – free coloring page" then sends the welcome email with both free PDFs.
+- The welcome email links to the stable PDF URLs, so the weekly free-page rotation needs no MailerLite change. Don't touch the form or the automation unless Charlize asks.

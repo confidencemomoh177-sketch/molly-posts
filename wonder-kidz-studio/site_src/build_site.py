@@ -109,6 +109,7 @@ def head(title, desc, url, image, og_type='website', extra_meta='', jsonld=None)
 <link rel="canonical" href="{url}">
 <meta name="theme-color" content="#1C4A33">
 <meta name="p:domain_verify" content="a2a2ac66b967b897bfebe380d8e60487"/>
+<meta name="msvalidate.01" content="80057D46B34606854118D2A22715B657" />
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{{"token": "aff9a899a42748abaa16e0ecc21952e8"}}'></script>
 <link rel="icon" type="image/png" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">

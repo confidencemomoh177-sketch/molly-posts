@@ -9,7 +9,7 @@ Each Sunday's scheduled run follows this file from top to bottom. It builds and 
 - Every post links to the website: `https://wonderkidzstudio.netlify.app`. The short link `https://tinyurl.com/wonderkidz01` goes to the same site.
   - Captions say "link in bio".
   - YouTube descriptions and the pinned comment use the short link.
-  - The Pinterest pinLink is the matching **product page**, not the homepage: coloring pins → `/cozy-christmas-coloring-book-printable/`, activity pins → `/cozy-christmas-activity-book-printable/`, countdown/advent hooks → `/cozy-christmas-countdown/`, gift/bundle hooks → `/ultimate-christmas-activity-bundle/` (all on `https://wonderkidzstudio.netlify.app`). No tracking parameters needed (Cloudflare shows referrers).
+  - The Pinterest pinLink is the matching **product page**, not the homepage: coloring pins → `/cozy-christmas-coloring-book-printable/`, activity pins → `/cozy-christmas-activity-book-printable/`, countdown/advent hooks → `/cozy-christmas-countdown/`, gift/bundle hooks → `/ultimate-christmas-activity-bundle/` (all on `https://wonderkidzstudio.netlify.app`). Exception: a pin whose text promises the free printables ("34 more … free") links to the homepage, where the free download is. No tracking parameters needed.
   - **Gumroad links never go in posts.** They go on the website only.
 - Cloudinary cloud `u8nockph`. Upload by remote URL from `raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/<commit SHA>/...`, because the shell can't reach Cloudinary.
 

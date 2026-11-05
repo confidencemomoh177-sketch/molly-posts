@@ -9,7 +9,7 @@ Each Sunday's scheduled run follows this file from top to bottom. It builds and 
 - Every post links to the website: `https://wonderkidzstudio.netlify.app`. The short link `https://tinyurl.com/wonderkidz01` goes to the same site.
   - Captions say "link in bio".
   - YouTube descriptions and the pinned comment use the short link.
-  - The Pinterest pinLink is the site URL.
+  - The Pinterest pinLink is the matching **product page**, not the homepage: coloring pins → `/cozy-christmas-coloring-book-printable/`, activity pins → `/cozy-christmas-activity-book-printable/`, countdown/advent hooks → `/cozy-christmas-countdown/`, gift/bundle hooks → `/ultimate-christmas-activity-bundle/` (all on `https://wonderkidzstudio.netlify.app`). No tracking parameters needed (Cloudflare shows referrers).
   - **Gumroad links never go in posts.** They go on the website only.
 - Cloudinary cloud `u8nockph`. Upload by remote URL from `raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/<commit SHA>/...`, because the shell can't reach Cloudinary.
 
@@ -66,6 +66,7 @@ Each Sunday's scheduled run follows this file from top to bottom. It builds and 
      - a slides contact sheet;
      - the ChatGPT Word file;
      - Metricool analytics for last week's posts, if available (top posts by views or saves);
+     - **a ready-to-send newsletter** (subject, preview text, body) for the MailerLite "Website sign-ups" group: this week's new free coloring page (link `https://wonderkidzstudio.netlify.app/free/free-coloring-page-of-the-week.pdf`) plus ONE product with its product-page link (rotate: bundle → Countdown → coloring → activity). Warm, short, no author names, no Gumroad links (link product pages on the site). She pastes it into MailerLite and sends it herself;
      - anything she needs to do.
    - If a step fails, still send the report and say exactly what failed.
 

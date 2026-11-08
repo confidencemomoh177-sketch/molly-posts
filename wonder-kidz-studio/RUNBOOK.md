@@ -6,10 +6,10 @@ Each Sunday's scheduled run follows this file from top to bottom. It builds and 
 - Metricool brand "Wonder Kidz Studio", blogId **7850012**. Networks: TikTok, Instagram (REEL), YouTube (short), Pinterest.
 - Pinterest boardId **1140888586794329019** (board "Christmas Activities for Kids").
 - Slots: **09:00, 13:00, 20:00 America/New_York**.
-- Every post links to the website: `https://wonderkidzstudio.netlify.app`. The short link `https://tinyurl.com/wonderkidz01` goes to the same site.
+- Every post links to the website: `https://wonderkidzstudio.pages.dev`. The short link `https://tinyurl.com/wonderkidz01` goes to the same site.
   - Captions say "link in bio".
   - YouTube descriptions and the pinned comment use the short link.
-  - The Pinterest pinLink is the matching **product page**, not the homepage: coloring pins → `/cozy-christmas-coloring-book-printable/`, activity pins → `/cozy-christmas-activity-book-printable/`, countdown/advent hooks → `/cozy-christmas-countdown/`, gift/bundle hooks → `/ultimate-christmas-activity-bundle/` (all on `https://wonderkidzstudio.netlify.app`). Exception: a pin whose text promises the free printables ("34 more … free") links to the homepage, where the free download is. No tracking parameters needed.
+  - The Pinterest pinLink is the matching **product page**, not the homepage: coloring pins → `/cozy-christmas-coloring-book-printable/`, activity pins → `/cozy-christmas-activity-book-printable/`, countdown/advent hooks → `/cozy-christmas-countdown/`, gift/bundle hooks → `/ultimate-christmas-activity-bundle/` (all on `https://wonderkidzstudio.pages.dev`). Exception: a pin whose text promises the free printables ("34 more … free") links to the homepage, where the free download is. No tracking parameters needed.
   - **Gumroad links never go in posts.** They go on the website only.
 - Cloudinary cloud `u8nockph`. Upload by remote URL from `raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/<commit SHA>/...`, because the shell can't reach Cloudinary.
 
@@ -66,15 +66,15 @@ Each Sunday's scheduled run follows this file from top to bottom. It builds and 
      - a slides contact sheet;
      - the ChatGPT Word file;
      - Metricool analytics for last week's posts, if available (top posts by views or saves);
-     - **a ready-to-send newsletter** (subject, preview text, body) for the MailerLite "Website sign-ups" group: this week's new free coloring page (link `https://wonderkidzstudio.netlify.app/free/free-coloring-page-of-the-week.pdf`) plus ONE product with its product-page link (rotate: bundle → Countdown → coloring → activity). Warm, short, no author names, no Gumroad links (link product pages on the site). She pastes it into MailerLite and sends it herself;
+     - **a ready-to-send newsletter** (subject, preview text, body) for the MailerLite "Website sign-ups" group: this week's new free coloring page (link `https://wonderkidzstudio.pages.dev/free/free-coloring-page-of-the-week.pdf`) plus ONE product with its product-page link (rotate: bundle → Countdown → coloring → activity). Warm, short, no author names, no Gumroad links (link product pages on the site). She pastes it into MailerLite and sends it herself;
      - anything she needs to do.
    - If a step fails, still send the report and say exactly what failed.
 
 ## Website hosting
-- Live site: https://wonderkidzstudio.netlify.app (Netlify project "wonderkidzstudio", auto-deploys from this repo).
-- The site is GENERATED: edit `site_src/` (products.json for products, home_body.html for homepage text, head_styles.html for styles), then run `python3 site_src/build_site.py`, commit and push to `main`; Netlify publishes within about a minute. Never hand-edit files in `site/` except images in `site/img/`.
+- Live site: https://wonderkidzstudio.pages.dev (Cloudflare Pages project "wonderkidzstudio", account handelglobalgm@gmail.com; auto-deploys from `main`, output dir `wonder-kidz-studio/site`, no build command). Moved from Netlify on 2026-11-08 because Netlify free credits ran out; the old address wonderkidzstudio.netlify.app still serves the Nov 5 version and will redirect here once Netlify deploys again (credits reset Dec 4; redirect is in /netlify.toml).
+- The site is GENERATED: edit `site_src/` (products.json for products, home_body.html for homepage text, head_styles.html for styles), then run `python3 site_src/build_site.py`, commit and push to `main`; Cloudflare Pages publishes within about a minute. Never hand-edit files in `site/` except images in `site/img/`.
 - New product: add a square ~1000px cover as `site/img/<slug>.jpg` and an entry in `site_src/products.json`; the build makes its card, its own page at /<slug>/, the sitemap entry and Pinterest/Google tags.
-- Product pages can be used as Pinterest pin links (e.g. https://wonderkidzstudio.netlify.app/cozy-christmas-countdown/).
+- Product pages can be used as Pinterest pin links (e.g. https://wonderkidzstudio.pages.dev/cozy-christmas-countdown/).
 
 ## Weekly free coloring page (website)
 Every Sunday run, after scheduling: pick a coloring page (1–50) that is NOT in `site_src/free_pages.json` (sample, weekly or history) and preferably not one being posted this week, then run

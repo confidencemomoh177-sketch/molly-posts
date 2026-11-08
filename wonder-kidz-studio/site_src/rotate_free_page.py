@@ -25,7 +25,7 @@ subprocess.run(['pdftoppm', '-r', '300', '-f', str(pdfp), '-l', str(pdfp), '-png
 im = Image.open(tmp + '.png').convert('RGB')
 d = ImageDraw.Draw(im)
 f = ImageFont.truetype('/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf', 30)
-t = 'Free page of the week · Cozy Christmas Coloring Book · wonderkidzstudio.netlify.app'
+t = 'Free page of the week · Cozy Christmas Coloring Book · wonderkidzstudio.pages.dev'
 w = d.textlength(t, font=f)
 d.rectangle(((im.width - w) / 2 - 20, im.height - 95, (im.width + w) / 2 + 20, im.height - 45), fill='white')
 d.text(((im.width - w) / 2, im.height - 92), t, font=f, fill='#555555')

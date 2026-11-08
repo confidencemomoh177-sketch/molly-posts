@@ -2,7 +2,7 @@
 BN = "https://www.barnesandnoble.com/w/cozy-christmas-coloring-book-for-toddlers-and-kids-ages-3-8-wonder-kidz-studio/1151845334?ean=9798179099178"
 FREE = "https://handelstudio.gumroad.com/l/SnuggleWoodsChristmasBundle"
 SHORT = "https://tinyurl.com/wonderkidz01"
-SITE = "https://wonderkidzstudio.netlify.app"   # every post links here; Gumroad links go on the site only
+SITE = "https://wonderkidzstudio.pages.dev"   # every post links here; Gumroad links go on the site only
 
 A = dict(book="activity", inside_title="What kids practise", page_title="From our activity pages",
          page_extra="+ 34 free printables (link in bio)", more_title="34 free printables",

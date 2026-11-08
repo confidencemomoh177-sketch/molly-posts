@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wonderkidzstudio.netlify.app/sitemap.xml
+Sitemap: https://wonderkidzstudio.pages.dev/sitemap.xml

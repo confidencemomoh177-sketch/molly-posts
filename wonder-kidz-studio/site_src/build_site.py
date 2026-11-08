@@ -8,7 +8,7 @@ from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, '..', 'site')
-SITE = 'https://wonderkidzstudio.netlify.app'
+SITE = 'https://wonderkidzstudio.pages.dev'
 BRAND = 'Wonder Kidz Studio'
 TODAY = datetime.date.today().isoformat()
 

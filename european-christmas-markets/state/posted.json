@@ -125,33 +125,140 @@
    "key": "lake_bled",
    "date": "2026-11-09",
    "time": "19:00"
+  },
+  {
+   "n": 22,
+   "key": "munich",
+   "date": "2026-11-10",
+   "time": "09:00"
+  },
+  {
+   "n": 23,
+   "key": "schonbrunn",
+   "date": "2026-11-10",
+   "time": "13:00"
+  },
+  {
+   "n": 24,
+   "key": "budget",
+   "date": "2026-11-10",
+   "time": "19:00"
+  },
+  {
+   "n": 25,
+   "key": "innsbruck",
+   "date": "2026-11-11",
+   "time": "09:00"
+  },
+  {
+   "n": 26,
+   "key": "hamburg",
+   "date": "2026-11-11",
+   "time": "13:00"
+  },
+  {
+   "n": 27,
+   "key": "bratwurst",
+   "date": "2026-11-11",
+   "time": "19:00"
+  },
+  {
+   "n": 28,
+   "key": "heidelberg",
+   "date": "2026-11-12",
+   "time": "09:00"
+  },
+  {
+   "n": 29,
+   "key": "zurich",
+   "date": "2026-11-12",
+   "time": "13:00"
+  },
+  {
+   "n": 30,
+   "key": "nutcrackers",
+   "date": "2026-11-12",
+   "time": "19:00"
+  },
+  {
+   "n": 31,
+   "key": "brussels",
+   "date": "2026-11-13",
+   "time": "09:00"
+  },
+  {
+   "n": 32,
+   "key": "south_tyrol",
+   "date": "2026-11-13",
+   "time": "13:00"
+  },
+  {
+   "n": 33,
+   "key": "chimney_cake",
+   "date": "2026-11-13",
+   "time": "19:00"
+  },
+  {
+   "n": 34,
+   "key": "alsace",
+   "date": "2026-11-14",
+   "time": "09:00"
+  },
+  {
+   "n": 35,
+   "key": "imperial",
+   "date": "2026-11-14",
+   "time": "13:00"
+  },
+  {
+   "n": 36,
+   "key": "esslingen",
+   "date": "2026-11-14",
+   "time": "19:00"
+  },
+  {
+   "n": 37,
+   "key": "river_cruise",
+   "date": "2026-11-15",
+   "time": "09:00"
+  },
+  {
+   "n": 38,
+   "key": "wolfgangsee",
+   "date": "2026-11-15",
+   "time": "13:00"
+  },
+  {
+   "n": 39,
+   "key": "annaberg",
+   "date": "2026-11-15",
+   "time": "19:00"
+  },
+  {
+   "n": 40,
+   "key": "rovaniemi",
+   "date": "2026-11-16",
+   "time": "09:00"
+  },
+  {
+   "n": 41,
+   "key": "lucia",
+   "date": "2026-11-16",
+   "time": "13:00"
+  },
+  {
+   "n": 42,
+   "key": "naples",
+   "date": "2026-11-16",
+   "time": "19:00"
   }
  ],
- "items_used": [
-  "nuremberg",
-  "mug_deposit",
-  "colmar",
-  "gluhwein",
-  "strasbourg",
-  "prague",
-  "vienna",
-  "valkenburg",
-  "rothenburg",
-  "tivoli",
-  "budapest",
-  "lebkuchen",
-  "cologne",
-  "salzburg",
-  "bruges",
-  "dresden",
-  "krampus",
-  "montreux",
-  "ravenna",
-  "krakow",
-  "lake_bled"
- ],
+ "items_used": 42,
  "board_id": "617978448809090278",
  "metricool_brand": 7842391,
  "store_full": "https://www.barnesandnoble.com/w/european-christmas-markets-guide-2026-2027-shelli-a-hibbard/1151461426?ean=9798179025290",
- "store_short": "https://tinyurl.com/CHRISTMAS-MARKETS-GUIDE"
+ "store_short": "https://tinyurl.com/CHRISTMAS-MARKETS-GUIDE",
+ "notes": [
+  "2026-11-08: week 2 (Nov 10-16) scheduled, 84 posts + 3 IG carousels; music now committed in ../music as m4a; slide-4 CTA moved to y=1395"
+ ]
 }

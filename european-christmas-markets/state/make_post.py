@@ -148,10 +148,11 @@ def build(r, out):
     d.rectangle((0, 0, W, 300), fill=S)
     centered(d, [fmt(r["more_title"])], font(SERIF, 78, 700), 100, "white")
     cw = 780 if cover.height / cover.width < 1.45 else 700
+    cw = min(cw, int(980 * cover.width / cover.height))   # keep cover + button clear of the bottom 400 px
     cv = cover.resize((cw, int(cw * cover.height / cover.width)), Image.LANCZOS)
     cc = shadowed(cv)
     s4.paste(cc, ((W - cc.width) // 2, 330), cc)
-    pill(d, r["cta"], font(BOLD, 58), W // 2, 1500, P, "white", px=80, py=26)
+    pill(d, r["cta"], font(BOLD, 58), W // 2, 1395, P, "white", px=80, py=26)
     s4.save(f"{out}/4_book.png")
 
     # Pinterest pin 1000 x 1500

@@ -70,5 +70,29 @@
   "num": 45,
   "pdf_page": 97,
   "status": "ready"
+ },
+ "paper_chain": {
+  "num": 8,
+  "pdf_page": 23,
+  "status": "ready",
+  "source": "chatgpt-browser 2026-11-08"
+ },
+ "tree_top": {
+  "num": 13,
+  "pdf_page": 33,
+  "status": "ready",
+  "source": "chatgpt-browser 2026-11-08"
+ },
+ "secret_presents": {
+  "num": 24,
+  "pdf_page": 55,
+  "status": "ready",
+  "source": "chatgpt-browser 2026-11-08"
+ },
+ "letter_mailbox": {
+  "num": 40,
+  "pdf_page": 87,
+  "status": "ready",
+  "source": "chatgpt-browser 2026-11-08"
  }
 }

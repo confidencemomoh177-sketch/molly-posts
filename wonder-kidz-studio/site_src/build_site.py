@@ -273,7 +273,7 @@ def faq_html():
 
 def build_home():
     body = part('home_body.html').replace('{{KIDS_PRODUCTS}}', section_html('kids')).replace('{{PARENT_PRODUCTS}}', section_html('parents')).replace('{{FREE_PAGES}}', free_pages_html()).replace('{{FAQ}}', faq_html())
-    desc = "Printable coloring and activity books for kids ages 3–8 starring Pip, Juniper and Waddles. Instant PDF downloads, plus printables for parents and our Cozy Christmas paperback."
+    desc = "Printable coloring and activity books for kids ages 3–8 starring Pip, Juniper and Waddles. Instant PDF downloads, plus printables for parents and our Cozy Christmas paperbacks."
     ld = [{"@context": "https://schema.org", "@type": "Organization", "name": BRAND, "url": SITE + '/', "logo": SITE + '/apple-touch-icon.png',
            "sameAs": ["https://pin.it/1vTdeaMdw", "https://www.tiktok.com/@wonderkidz01", "https://www.instagram.com/wonderkidzstudio01/", "https://www.youtube.com/channel/UCoTcOowAHH3H11xoEOrQp6Q"]},
           {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": SITE + '/'},

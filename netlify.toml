@@ -1,0 +1,4 @@
+# Only build/publish when the website itself changed (weekly post uploads must not use Netlify credits).
+[build]
+  publish = "wonder-kidz-studio/site"
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- wonder-kidz-studio/site"

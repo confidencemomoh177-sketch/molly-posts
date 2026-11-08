@@ -27,7 +27,76 @@
    38,
    17,
    47
-  ]
+  ],
+  "week2_2026-11-10_to_16": {
+   "new_recipes": [
+    15,
+    52,
+    10,
+    25,
+    90,
+    3,
+    96,
+    49,
+    28,
+    30,
+    55
+   ],
+   "recut_hooks": [
+    98,
+    13,
+    37
+   ],
+   "list_posts": {
+    "L1_teachers": [
+     33,
+     37,
+     1,
+     85,
+     86
+    ],
+    "L2_neighbors": [
+     45,
+     1,
+     69,
+     99
+    ],
+    "L3_five_minute": [
+     33,
+     86,
+     99,
+     60
+    ],
+    "L4_under_2": [
+     42,
+     60,
+     99
+    ],
+    "L5_kids": [
+     42,
+     11,
+     96
+    ],
+    "L6_soups": [
+     45,
+     47,
+     49,
+     52
+    ],
+    "L7_splurge": [
+     69,
+     71,
+     90,
+     93
+    ]
+   },
+   "format": "v2 short (~9 s, hook on top) via make_post2.py",
+   "metricool_posts": 42,
+   "cloudinary_prefix": "molly/w2/",
+   "skipped": {
+    "81": "vanilla extract contains vodka"
+   }
+  }
  },
  "photo_confirmed": {
   "1": 46,
@@ -68,18 +137,7 @@
   "99": 211
  },
  "remaining_confirmed": [
-  3,
-  10,
-  15,
-  25,
-  28,
-  30,
-  49,
-  52,
-  55,
-  81,
-  90,
-  96
+  81
  ],
  "metricool_brand": 7820491,
  "pinterest_board": "1143070017863799487",

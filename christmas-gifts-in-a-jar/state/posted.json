@@ -148,6 +148,34 @@
    "13:00",
    "19:00"
   ],
-  "why": "US buyers: morning scroll, lunch, evening peak"
+  "why": "US buyers: morning scroll, lunch, evening peak",
+  "carousel_ig_tiktok": "16:00"
+ },
+ "carousels_week2": {
+  "slot": "16:00 America/New_York",
+  "networks": [
+   "instagram",
+   "tiktok"
+  ],
+  "size": "1080x1350 jpg",
+  "script": "make_carousel.py",
+  "cloudinary_prefix": "molly/w2car/",
+  "posts": {
+   "2026-11-10": "C1 layering rules (ch3)",
+   "2026-11-11": "C2 dress up jars (ch5)",
+   "2026-11-12": "C3 jar sizes (ch2)",
+   "2026-11-13": "C4 tie-ons (ch5)",
+   "2026-11-14": "C5 timeline (ch6)",
+   "2026-11-15": "C6 fixes (ch18)",
+   "2026-11-16": "C7 tag lines (ch17)"
+  },
+  "unused_ideas": [
+   "shelf-life chart (ch4)",
+   "allergy swaps (ch4)",
+   "gift bundles (ch5)",
+   "mailing jars (ch6)",
+   "jar-filling party (ch6)",
+   "who-gets-which-jar (ch19)"
+  ]
  }
 }

@@ -1,50 +1,163 @@
 [
  {
-  "kind": "ig_carousel",
+  "kind": "carousel_6",
+  "key": "open_first",
+  "date": "2026-11-10",
+  "time": "16:00",
+  "networks": [
+   "tiktok",
+   "instagram"
+  ],
+  "slides": [
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794225991/european-christmas-markets/carousels/open_first/1.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794225992/european-christmas-markets/carousels/open_first/2.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794225994/european-christmas-markets/carousels/open_first/3.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794225995/european-christmas-markets/carousels/open_first/4.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794225996/european-christmas-markets/carousels/open_first/5.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794225997/european-christmas-markets/carousels/open_first/6.jpg"
+  ],
+  "metricool_ids": {
+   "tiktok": 421728689,
+   "instagram": 421728727
+  },
+  "status": "scheduled"
+ },
+ {
+  "kind": "carousel_6",
+  "key": "after_christmas",
   "date": "2026-11-11",
   "time": "16:00",
-  "src": "posts/11_budapest",
-  "key": "budapest",
-  "instagram": "A 3D light show on Budapest's basilica.\n\nAt Budapest's Advent Feast, a 3D light show is projected onto St. Stephen's Basilica several times each evening, with an ice rink around the tree.\nEat lángos, kürtőskalács, goulash in a bread bowl and beigli.\nThe Vörösmarty fair has been card-only in recent seasons.\n\nSwipe through 👉 Save this for your trip planning 🎄\nDates, hours & itineraries for every market are in the guide (link in bio).\n\n#budapest #hungary #christmasmarkets #europeanchristmasmarkets #christmasineurope #europetravel #wintertravel",
-  "status": "scheduled",
-  "slides": [
-   "https://res.cloudinary.com/u8nockph/image/upload/v1794172646/european-christmas-markets/posts/11_budapest/1_hook.jpg",
-   "https://res.cloudinary.com/u8nockph/image/upload/v1794172648/european-christmas-markets/posts/11_budapest/2_layers.jpg",
-   "https://res.cloudinary.com/u8nockph/image/upload/v1794172649/european-christmas-markets/posts/11_budapest/3_page.jpg",
-   "https://res.cloudinary.com/u8nockph/image/upload/v1794172651/european-christmas-markets/posts/11_budapest/4_book.jpg"
+  "networks": [
+   "tiktok",
+   "instagram"
   ],
-  "metricool_id": 421100908
+  "slides": [
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226001/european-christmas-markets/carousels/after_christmas/1.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226003/european-christmas-markets/carousels/after_christmas/2.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226004/european-christmas-markets/carousels/after_christmas/3.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226006/european-christmas-markets/carousels/after_christmas/4.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226008/european-christmas-markets/carousels/after_christmas/5.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226009/european-christmas-markets/carousels/after_christmas/6.jpg"
+  ],
+  "metricool_ids": {
+   "tiktok": 421728758,
+   "instagram": 421730363
+  },
+  "status": "scheduled"
  },
  {
-  "kind": "ig_carousel",
+  "kind": "carousel_6",
+  "key": "twist",
+  "date": "2026-11-12",
+  "time": "16:00",
+  "networks": [
+   "tiktok",
+   "instagram"
+  ],
+  "slides": [
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226046/european-christmas-markets/carousels/twist/1.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226048/european-christmas-markets/carousels/twist/2.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226049/european-christmas-markets/carousels/twist/3.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226050/european-christmas-markets/carousels/twist/4.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226051/european-christmas-markets/carousels/twist/5.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226052/european-christmas-markets/carousels/twist/6.jpg"
+  ],
+  "metricool_ids": {
+   "tiktok": 421728788,
+   "instagram": 421729226
+  },
+  "status": "scheduled"
+ },
+ {
+  "kind": "carousel_6",
+  "key": "fairytale",
   "date": "2026-11-13",
   "time": "16:00",
-  "src": "posts/13_cologne",
-  "key": "cologne",
-  "instagram": "7+ Christmas markets, all walkable.\n\nCologne has seven or more major Christmas markets, all within walking distance.\nThe Cathedral market has around 150 stalls under a canopy of lights, and there's an angels' market, a harbour market and even a market boat on the Rhine.\nThe main station is right next to the cathedral.\n\nSwipe through 👉 Save this for your trip planning 🎄\nDates, hours & itineraries for every market are in the guide (link in bio).\n\n#cologne #koln #christmasmarkets #europeanchristmasmarkets #christmasineurope #europetravel #wintertravel",
-  "status": "scheduled",
-  "slides": [
-   "https://res.cloudinary.com/u8nockph/image/upload/v1794172652/european-christmas-markets/posts/13_cologne/1_hook.jpg",
-   "https://res.cloudinary.com/u8nockph/image/upload/v1794172654/european-christmas-markets/posts/13_cologne/2_layers.jpg",
-   "https://res.cloudinary.com/u8nockph/image/upload/v1794172656/european-christmas-markets/posts/13_cologne/3_page.jpg",
-   "https://res.cloudinary.com/u8nockph/image/upload/v1794172657/european-christmas-markets/posts/13_cologne/4_book.jpg"
+  "networks": [
+   "tiktok",
+   "instagram"
   ],
-  "metricool_id": 421100942
+  "slides": [
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226055/european-christmas-markets/carousels/fairytale/1.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226057/european-christmas-markets/carousels/fairytale/2.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226058/european-christmas-markets/carousels/fairytale/3.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226065/european-christmas-markets/carousels/fairytale/4.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226066/european-christmas-markets/carousels/fairytale/5.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226068/european-christmas-markets/carousels/fairytale/6.jpg"
+  ],
+  "metricool_ids": {
+   "tiktok": 421729261,
+   "instagram": 421730770
+  },
+  "status": "scheduled"
  },
  {
-  "kind": "ig_carousel",
+  "kind": "carousel_6",
+  "key": "families",
+  "date": "2026-11-14",
+  "time": "16:00",
+  "networks": [
+   "tiktok",
+   "instagram"
+  ],
+  "slides": [
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226068/european-christmas-markets/carousels/families/1.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226069/european-christmas-markets/carousels/families/2.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226070/european-christmas-markets/carousels/families/3.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226071/european-christmas-markets/carousels/families/4.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226072/european-christmas-markets/carousels/families/5.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226072/european-christmas-markets/carousels/families/6.jpg"
+  ],
+  "metricool_ids": {
+   "tiktok": 421729306,
+   "instagram": 421729333
+  },
+  "status": "scheduled"
+ },
+ {
+  "kind": "carousel_6",
+  "key": "money_tips",
   "date": "2026-11-15",
   "time": "16:00",
-  "src": "posts/09_rothenburg",
-  "key": "rothenburg",
-  "instagram": "Rothenburg after 5 pm is pure magic.\n\nRothenburg ob der Tauber is busy with day-trippers, but after the buses leave around 5 pm it becomes wonderfully peaceful.\nTry a Schneeball pastry, join the Night Watchman's Tour and walk the covered town walls.\nThe Reiterlesmarkt is expected Nov 27 – Dec 23, 2026.\n\nSwipe through 👉 Save this for your trip planning 🎄\nDates, hours & itineraries for every market are in the guide (link in bio).\n\n#rothenburg #romanticroad #christmasmarkets #europeanchristmasmarkets #christmasineurope #europetravel #wintertravel",
-  "status": "scheduled",
-  "slides": [
-   "https://res.cloudinary.com/u8nockph/image/upload/v1794172659/european-christmas-markets/posts/09_rothenburg/1_hook.jpg",
-   "https://res.cloudinary.com/u8nockph/image/upload/v1794172661/european-christmas-markets/posts/09_rothenburg/2_layers.jpg",
-   "https://res.cloudinary.com/u8nockph/image/upload/v1794172662/european-christmas-markets/posts/09_rothenburg/3_page.jpg",
-   "https://res.cloudinary.com/u8nockph/image/upload/v1794172664/european-christmas-markets/posts/09_rothenburg/4_book.jpg"
+  "networks": [
+   "tiktok",
+   "instagram"
   ],
-  "metricool_id": 421100964
+  "slides": [
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226076/european-christmas-markets/carousels/money_tips/1.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226077/european-christmas-markets/carousels/money_tips/2.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226079/european-christmas-markets/carousels/money_tips/3.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226080/european-christmas-markets/carousels/money_tips/4.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226082/european-christmas-markets/carousels/money_tips/5.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226083/european-christmas-markets/carousels/money_tips/6.jpg"
+  ],
+  "metricool_ids": {
+   "tiktok": 421729820,
+   "instagram": 421731100
+  },
+  "status": "scheduled"
+ },
+ {
+  "kind": "carousel_6",
+  "key": "couples",
+  "date": "2026-11-16",
+  "time": "16:00",
+  "networks": [
+   "tiktok",
+   "instagram"
+  ],
+  "slides": [
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226085/european-christmas-markets/carousels/couples/1.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226086/european-christmas-markets/carousels/couples/2.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226088/european-christmas-markets/carousels/couples/3.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226089/european-christmas-markets/carousels/couples/4.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226091/european-christmas-markets/carousels/couples/5.jpg",
+   "https://res.cloudinary.com/u8nockph/image/upload/v1794226092/european-christmas-markets/carousels/couples/6.jpg"
+  ],
+  "metricool_ids": {
+   "tiktok": 421729890,
+   "instagram": 421729951
+  },
+  "status": "scheduled"
  }
 ]

@@ -193,15 +193,19 @@ CAROUSELS = [
    dict(bg=GREEN, kicker="Shop", title="All three on our website", body="Links to every paperback, plus free printables.\nLink in bio.", covers=[Image.open(f"{REPO}/site/img/{n}").convert("RGB") for n in ["cozy-christmas-coloring-book-paperback.jpg", "cozy-christmas-activity-book-paperback.jpg", "large-print-christmas-word-search-for-seniors.jpg"]], foot="Save this gift list ♡")]),
 ]
 
-if __name__ == "__main__":
-    import sys
-    only = sys.argv[1:]
-    for n, c in enumerate(CAROUSELS):
+def build(carousels, outdir, only=()):
+    """Render each carousel to <outdir>/NN_key/{ig,tt}_SS.jpg (IG 1080x1350, TikTok 1080x1920)."""
+    for n, c in enumerate(carousels):
         if only and c["key"] not in only: continue
-        out = f"{REPO}/carousels_w2/{n+1:02d}_{c['key']}"; os.makedirs(out, exist_ok=True)
+        out = f"{outdir}/{n+1:02d}_{c['key']}"; os.makedirs(out, exist_ok=True)
         for f in os.listdir(out): os.remove(f"{out}/{f}")
         k = len(c["slides"])
         for i, s in enumerate(c["slides"], 1):
             ig = slide(s, i, k)
             ig.save(f"{out}/ig_{i:02d}.jpg", quality=90); tiktok(ig).save(f"{out}/tt_{i:02d}.jpg", quality=90)
         print(out, k)
+
+
+if __name__ == "__main__":
+    import sys
+    build(CAROUSELS, f"{REPO}/carousels_w2", sys.argv[1:])

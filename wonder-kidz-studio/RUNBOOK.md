@@ -1,11 +1,11 @@
 # Wonder Kidz Studio — weekly autopilot runbook
 
-Each Sunday's scheduled run follows this file from top to bottom. It builds and schedules the next **Monday–Sunday** week: 3 slots a day × 4 platforms = 84 posts. It then sends Charlize a report.
+Each Sunday's scheduled run follows this file from top to bottom. It builds and schedules the next **Monday–Sunday** week: 3 video slots a day × 4 platforms = 84 posts, **plus one swipeable carousel a day on TikTok and Instagram** = 14 more (98 in total). It then sends Charlize a report.
 
 ## Fixed settings
 - Metricool brand "Wonder Kidz Studio", blogId **7850012**. Networks: TikTok, Instagram (REEL), YouTube (short), Pinterest.
 - Pinterest boardId **1140888586794329019** (board "Christmas Activities for Kids").
-- Slots: **09:00, 13:00, 20:00 America/New_York**.
+- Slots: **09:00, 13:00, 20:00 America/New_York** for the video posts, and **16:00** for the daily carousel (TikTok + Instagram only).
 - Every post links to the website: `https://wonderkidzstudio.pages.dev`. The short link `https://tinyurl.com/wonderkidz01` goes to the same site.
   - Captions say "link in bio".
   - YouTube descriptions and the pinned comment use the short link.
@@ -53,7 +53,15 @@ Each Sunday's scheduled run follows this file from top to bottom. It builds and 
    - Commit and push, then upload each file to Cloudinary from its raw GitHub URL pinned to the commit SHA.
 7. **Schedule.**
    - Create one Metricool post per platform for each post, 84 in total. `state/mc.py` shows the JSON shape.
-   - Check with `getScheduledPosts` across the week: 84 posts, none missing, no duplicates.
+   - Check with `getScheduledPosts` across the week: 84 video posts plus the 14 carousels from step 7b (98), none missing, no duplicates.
+7b. **Daily carousels (TikTok + Instagram, 7 a week).**
+   - Write `state/carousels_wN.py`: `from carousel import *`, a `CAROUSELS` list of 7 dicts `{key, date, slides:[...]}` (one per day Mon–Sun), then `build(CAROUSELS, f"{REPO}/carousels_wN")`. See `CAROUSELS` in `state/carousel.py` (week 2) for the format and slide fields (`kicker`, `title`, `body`, `img`, `covers`, `bg`, `foot`).
+   - 5–7 slides each: a hook slide, 4–5 content slides, and a closing "link in bio" slide (reuse `CTA_ACT` or `CTA_COL`).
+   - Images: `page(ACT, pdf_page)` for activity pages, `C("key")` for colored pages, `split(lines, colored)` for before/after, paperback covers from `site/img/`.
+   - Text only from the books or the store page; no author names. Vary the themes week to week (e.g. activity round-ups, meet the friends, before/after, tips from the "How to Use" pages, brain games, story in 5 pages, gift guide); don't reuse a carousel theme from the last 2 weeks.
+   - Open the slides and check them (no clipped text, no missing-glyph boxes: Poppins/Lora lack "→" and "♡", so use words).
+   - Commit and push, then schedule with `media` = the raw GitHub URLs (Metricool re-hosts them; no Cloudinary needed): TikTok gets `tt_SS.jpg` with `tiktokData {privacyOption PUBLIC_TO_EVERYONE, autoAddMusic false, photoCoverIndex 0, isAigc true, title}`; Instagram gets `ig_SS.jpg` with `instagramData {type "POST", isAiGenerated true}`. Note: TikTok ignores the AI label on photo posts via the API, so remind Charlize to switch it on in the app.
+   - Verify: 14 carousel posts at 16:00, one per network per day.
 8. **Next ChatGPT round.**
    - Pick the next 6–7 unused coloring pages. In the coloring PDF, page N of 50 = PDF page `2N+7`.
    - Render them at 200 dpi and crop `(120,110,1580,1830)`.
@@ -63,7 +71,7 @@ Each Sunday's scheduled run follows this file from top to bottom. It builds and 
    - Update `posted.json`, `calendar.json` and `colored_pages/status.json` (newly used pages become `used`), then commit.
    - Send Charlize a short report:
      - what was scheduled each day;
-     - a slides contact sheet;
+     - a slides contact sheet, and one for the 7 carousels;
      - the ChatGPT Word file;
      - Metricool analytics for last week's posts, if available (top posts by views or saves);
      - **a ready-to-send newsletter** (subject, preview text, body) for the MailerLite "Website sign-ups" group: this week's new free coloring page (link `https://wonderkidzstudio.pages.dev/free/free-coloring-page-of-the-week.pdf`) plus ONE product with its product-page link (rotate: bundle → Countdown → coloring → activity). Warm, short, no author names, no Gumroad links (link product pages on the site). She pastes it into MailerLite and sends it herself;

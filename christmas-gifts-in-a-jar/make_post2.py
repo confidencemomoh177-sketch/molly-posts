@@ -10,7 +10,7 @@ Changes from v1 (based on week-1 TikTok data: viewers left after 1-3 s of 15 s):
 Usage:  python3 make_post2.py book.json item.json        (item with "type": "recipe" or "list")
 """
 import sys, json, subprocess, os
-from PIL import Image, ImageDraw, ImageFilter, ImageEnhance, ImageOps
+from PIL import Image, ImageDraw, ImageFilter, ImageEnhance, ImageOps, ImageChops
 from make_post import (DEFAULTS, W, H, SERIF, BOLD, MED, rgb, font, wrap, centered, pill,
                        fill_frame, shadowed, build as build_v1)
 
@@ -52,7 +52,13 @@ def collage(paths, w, h, gap=8):
 
 def page_crop(r, page, width=960):
     side = r.get("page_side", 120)
-    crop = page.crop((side, r.get("page_top", 150), page.width - side, min(r["page_cut"], page.height)))
+    top = r.get("page_top", 150)
+    crop = page.crop((side, top, page.width - side, min(r["page_cut"], page.height)))
+    for y0, y1 in r.get("page_hl", []):            # highlight the rows this post is about
+        marked = ImageChops.multiply(crop, Image.new("RGB", crop.size, (255, 222, 120)))  # like a highlighter pen
+        m = Image.new("L", crop.size, 0)
+        ImageDraw.Draw(m).rectangle((0, y0 - top, crop.width, y1 - top), fill=255)
+        crop = Image.composite(marked, crop, m)
     fade = Image.new("L", crop.size, 255)
     fd = ImageDraw.Draw(fade)
     k = r.get("page_fade", 120)

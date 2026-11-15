@@ -251,15 +251,142 @@
    "key": "naples",
    "date": "2026-11-16",
    "time": "19:00"
+  },
+  {
+   "n": 43,
+   "key": "rattenberg",
+   "date": "2026-11-17",
+   "time": "09:00"
+  },
+  {
+   "n": 44,
+   "key": "szechenyi",
+   "date": "2026-11-17",
+   "time": "13:00"
+  },
+  {
+   "n": 45,
+   "key": "feuerzangenbowle",
+   "date": "2026-11-17",
+   "time": "19:00"
+  },
+  {
+   "n": 46,
+   "key": "nyhavn",
+   "date": "2026-11-18",
+   "time": "09:00"
+  },
+  {
+   "n": 47,
+   "key": "christkind",
+   "date": "2026-11-18",
+   "time": "13:00"
+  },
+  {
+   "n": 48,
+   "key": "kids",
+   "date": "2026-11-18",
+   "time": "19:00"
+  },
+  {
+   "n": 49,
+   "key": "czech_nicholas",
+   "date": "2026-11-19",
+   "time": "09:00"
+  },
+  {
+   "n": 50,
+   "key": "sibiu",
+   "date": "2026-11-19",
+   "time": "13:00"
+  },
+  {
+   "n": 51,
+   "key": "lucerne",
+   "date": "2026-11-19",
+   "time": "19:00"
+  },
+  {
+   "n": 52,
+   "key": "santons",
+   "date": "2026-11-20",
+   "time": "09:00"
+  },
+  {
+   "n": 53,
+   "key": "packing",
+   "date": "2026-11-20",
+   "time": "13:00"
+  },
+  {
+   "n": 54,
+   "key": "edinburgh",
+   "date": "2026-11-20",
+   "time": "19:00"
+  },
+  {
+   "n": 55,
+   "key": "words",
+   "date": "2026-11-21",
+   "time": "09:00"
+  },
+  {
+   "n": 56,
+   "key": "cruise_onboard",
+   "date": "2026-11-21",
+   "time": "13:00"
+  },
+  {
+   "n": 57,
+   "key": "stay_late",
+   "date": "2026-11-21",
+   "time": "19:00"
+  },
+  {
+   "n": 58,
+   "key": "sternsinger",
+   "date": "2026-11-22",
+   "time": "09:00"
+  },
+  {
+   "n": 59,
+   "key": "hosting",
+   "date": "2026-11-22",
+   "time": "13:00"
+  },
+  {
+   "n": 60,
+   "key": "silvester",
+   "date": "2026-11-22",
+   "time": "19:00"
+  },
+  {
+   "n": 61,
+   "key": "spain_kings",
+   "date": "2026-11-23",
+   "time": "09:00"
+  },
+  {
+   "n": 62,
+   "key": "accessible",
+   "date": "2026-11-23",
+   "time": "13:00"
+  },
+  {
+   "n": 63,
+   "key": "vienna_cafe",
+   "date": "2026-11-23",
+   "time": "19:00"
   }
  ],
- "items_used": 42,
+ "items_used": 63,
  "board_id": "617978448809090278",
  "metricool_brand": 7842391,
  "store_full": "https://www.barnesandnoble.com/w/european-christmas-markets-guide-2026-2027-shelli-a-hibbard/1151461426?ean=9798179025290",
  "store_short": "https://tinyurl.com/CHRISTMAS-MARKETS-GUIDE",
  "notes": [
   "2026-11-08: week 2 (Nov 10-16) scheduled, 84 posts + 3 IG carousels; music now committed in ../music as m4a; slide-4 CTA moved to y=1395",
-  "2026-11-09: added daily 6-slide carousels (TikTok + Instagram, 16:00 NY) Nov 10-16; replaced the 3 earlier 4-slide 9:16 IG carousels"
+  "2026-11-09: added daily 6-slide carousels (TikTok + Instagram, 16:00 NY) Nov 10-16; replaced the 3 earlier 4-slide 9:16 IG carousels",
+  "2026-11-15: week 3 (Nov 17-23) scheduled after the Nov 8-15 review: 21 posts x 4 networks + 7 carousels (TikTok+IG, 16:00 NY). More surprise/tradition hooks and carousels, fewer cost/food lists, an opinion question in every caption. Videos on Cloudinary; pins/slides from raw GitHub (Metricool re-hosts)."
  ]
 }

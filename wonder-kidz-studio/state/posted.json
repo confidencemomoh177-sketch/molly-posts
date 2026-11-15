@@ -236,6 +236,185 @@
    "date": "2026-11-15",
    "time": "20:00",
    "week": "2026-11-09"
+  },
+  {
+   "n": 1,
+   "key": "cocoa_maze",
+   "date": "2026-11-16",
+   "time": "09:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 2,
+   "key": "count_ornaments",
+   "date": "2026-11-16",
+   "time": "13:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 3,
+   "key": "wish_list",
+   "date": "2026-11-16",
+   "time": "20:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 4,
+   "key": "star_maze",
+   "date": "2026-11-17",
+   "time": "09:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 5,
+   "key": "draw_waddles",
+   "date": "2026-11-17",
+   "time": "13:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 6,
+   "key": "decorate_cookies",
+   "date": "2026-11-17",
+   "time": "20:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 7,
+   "key": "ispy_snow",
+   "date": "2026-11-18",
+   "time": "09:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 8,
+   "key": "fair_words",
+   "date": "2026-11-18",
+   "time": "13:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 9,
+   "key": "sweater_pip",
+   "date": "2026-11-18",
+   "time": "20:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 10,
+   "key": "connect_30",
+   "date": "2026-11-19",
+   "time": "09:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 11,
+   "key": "half_tree",
+   "date": "2026-11-19",
+   "time": "13:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 12,
+   "key": "dots_boxes",
+   "date": "2026-11-19",
+   "time": "20:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 13,
+   "key": "more_less",
+   "date": "2026-11-20",
+   "time": "09:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 14,
+   "key": "lost_mitten",
+   "date": "2026-11-20",
+   "time": "13:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 15,
+   "key": "finish_story",
+   "date": "2026-11-20",
+   "time": "20:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 16,
+   "key": "cookie_count",
+   "date": "2026-11-21",
+   "time": "09:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 17,
+   "key": "inside_present",
+   "date": "2026-11-21",
+   "time": "13:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 18,
+   "key": "friends_words",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 19,
+   "key": "big_bigger",
+   "date": "2026-11-22",
+   "time": "09:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 20,
+   "key": "trace_names",
+   "date": "2026-11-22",
+   "time": "13:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": 21,
+   "key": "special_delivery",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "week": "2026-11-16"
+  },
+  {
+   "n": "C01",
+   "key": "spot_difference",
+   "date": "2026-11-16",
+   "time": "16:00",
+   "week": "2026-11-16",
+   "kind": "carousel_video"
+  },
+  {
+   "n": "C02",
+   "key": "color_by_number",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "week": "2026-11-16",
+   "kind": "carousel_video"
+  },
+  {
+   "n": "C03",
+   "key": "grandparents_gift",
+   "date": "2026-11-20",
+   "time": "16:00",
+   "week": "2026-11-16",
+   "kind": "carousel_video"
+  },
+  {
+   "n": "C04",
+   "key": "trace_write",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "week": "2026-11-16",
+   "kind": "carousel_video"
   }
  ],
  "metricool_brand": 7850012,

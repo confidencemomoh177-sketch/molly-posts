@@ -104,5 +104,47 @@
   "status": "used",
   "source": "chatgpt-browser 2026-11-08",
   "week": "2026-11-09"
+ },
+ "tree_farm": {
+  "num": 9,
+  "pdf_page": 25,
+  "status": "ready",
+  "source": "chatgpt 2026-11-22"
+ },
+ "window_lights": {
+  "num": 14,
+  "pdf_page": 35,
+  "status": "ready",
+  "source": "chatgpt 2026-11-22"
+ },
+ "wreath": {
+  "num": 16,
+  "pdf_page": 39,
+  "status": "ready",
+  "source": "chatgpt 2026-11-22"
+ },
+ "christmas_market": {
+  "num": 29,
+  "pdf_page": 65,
+  "status": "ready",
+  "source": "chatgpt 2026-11-22"
+ },
+ "blanket_fort": {
+  "num": 22,
+  "pdf_page": 51,
+  "status": "ready",
+  "source": "chatgpt 2026-11-22"
+ },
+ "reindeer_games": {
+  "num": 37,
+  "pdf_page": 81,
+  "status": "ready",
+  "source": "chatgpt 2026-11-22"
+ },
+ "snowman_pancakes": {
+  "num": 48,
+  "pdf_page": 103,
+  "status": "ready",
+  "source": "chatgpt 2026-11-22"
  }
 }

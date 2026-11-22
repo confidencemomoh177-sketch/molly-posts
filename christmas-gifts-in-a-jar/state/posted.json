@@ -231,6 +231,83 @@
     "molly/w3/",
     "molly/w3car/"
    ]
+  },
+  "week4_2026-11-24_to_30": {
+   "motion_test": {
+    "M1": 33,
+    "M2": 1,
+    "M3": 42,
+    "M4": 47,
+    "note": "moving-photo clips via make_motion.py (2.5D parallax + steam/snow/sparkle); compare vs slideshow videos in week 5 report"
+   },
+   "recuts": {
+    "R038": 38,
+    "R098": 98,
+    "R021": 21,
+    "R005": 5,
+    "R015": 15
+   },
+   "lists": {
+    "L22_under25_total": [
+     42,
+     60,
+     99,
+     45,
+     33,
+     86,
+     23
+    ],
+    "L23_game_day": [
+     69,
+     70,
+     71,
+     73
+    ],
+    "L24_no_oven": [
+     33,
+     37,
+     63,
+     66,
+     86,
+     99
+    ],
+    "L25_mailable": [
+     1,
+     45,
+     60,
+     63
+    ],
+    "L26_forgot_someone": [
+     33,
+     86,
+     99,
+     76,
+     71
+    ]
+   },
+   "carousels": {
+    "2026-11-24": "C15 buy for 12 jars (ch20)",
+    "2026-11-25": "C16 decorative layering",
+    "2026-11-26": "C17 gift bundles",
+    "2026-11-27": "C18 factory line",
+    "2026-11-28": "C19 every occasion (ch21)",
+    "2026-11-29": "C20 cup weights (ch20)",
+    "2026-11-30": "C21 jar pantry"
+   },
+   "extra_pins": "X01-X14 at 11:00 + 15:00 ET (week4_extra_pins.json)",
+   "slots": {
+    "09:00": "TikTok+YouTube+pin",
+    "11:00": "extra pin",
+    "15:00": "extra pin",
+    "16:00": "carousel IG+TikTok",
+    "19:00": "TikTok+YouTube+Instagram+pin"
+   },
+   "metricool_posts": 49,
+   "cloudinary_prefix": [
+    "molly/w4/",
+    "molly/w4car/",
+    "molly/w4pins/"
+   ]
   }
  },
  "photo_confirmed": {

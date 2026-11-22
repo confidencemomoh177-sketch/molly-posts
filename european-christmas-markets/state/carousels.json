@@ -320,5 +320,180 @@
    "instagram": 429283130
   },
   "status": "scheduled"
+ },
+ {
+  "kind": "carousel_6",
+  "key": "opening_this_week",
+  "date": "2026-11-24",
+  "time": "16:00",
+  "networks": [
+   "tiktok",
+   "instagram"
+  ],
+  "slides": [
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/opening_this_week/1.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/opening_this_week/2.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/opening_this_week/3.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/opening_this_week/4.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/opening_this_week/5.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/opening_this_week/6.jpg"
+  ],
+  "video": "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/opening_this_week/video.mp4",
+  "instagram_format": "REEL",
+  "metricool_ids": {
+   "tiktok": 437938328,
+   "instagram": 437938384
+  },
+  "status": "scheduled"
+ },
+ {
+  "kind": "carousel_6",
+  "key": "into_january",
+  "date": "2026-11-25",
+  "time": "16:00",
+  "networks": [
+   "tiktok",
+   "instagram"
+  ],
+  "slides": [
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/into_january/1.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/into_january/2.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/into_january/3.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/into_january/4.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/into_january/5.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/into_january/6.jpg"
+  ],
+  "video": "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/into_january/video.mp4",
+  "instagram_format": "REEL",
+  "metricool_ids": {
+   "tiktok": 437939697,
+   "instagram": 437939739
+  },
+  "status": "scheduled"
+ },
+ {
+  "kind": "carousel_6",
+  "key": "open_now",
+  "date": "2026-11-26",
+  "time": "16:00",
+  "networks": [
+   "tiktok",
+   "instagram"
+  ],
+  "slides": [
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/open_now/1.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/open_now/2.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/open_now/3.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/open_now/4.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/open_now/5.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/open_now/6.jpg"
+  ],
+  "video": "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/open_now/video.mp4",
+  "instagram_format": "REEL",
+  "metricool_ids": {
+   "tiktok": 437940525,
+   "instagram": 437940579
+  },
+  "status": "scheduled"
+ },
+ {
+  "kind": "carousel_6",
+  "key": "storybook_towns",
+  "date": "2026-11-27",
+  "time": "16:00",
+  "networks": [
+   "tiktok",
+   "instagram"
+  ],
+  "slides": [
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/storybook_towns/1.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/storybook_towns/2.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/storybook_towns/3.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/storybook_towns/4.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/storybook_towns/5.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/storybook_towns/6.jpg"
+  ],
+  "video": "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/storybook_towns/video.mp4",
+  "instagram_format": "REEL",
+  "metricool_ids": {
+   "tiktok": 437941619,
+   "instagram": 437941684
+  },
+  "status": "scheduled"
+ },
+ {
+  "kind": "carousel_6",
+  "key": "snow_chance",
+  "date": "2026-11-28",
+  "time": "16:00",
+  "networks": [
+   "tiktok",
+   "instagram"
+  ],
+  "slides": [
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/snow_chance/1.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/snow_chance/2.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/snow_chance/3.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/snow_chance/4.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/snow_chance/5.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/snow_chance/6.jpg"
+  ],
+  "video": "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/snow_chance/video.mp4",
+  "instagram_format": "REEL",
+  "metricool_ids": {
+   "tiktok": 437942880,
+   "instagram": 437942945
+  },
+  "status": "scheduled"
+ },
+ {
+  "kind": "carousel_6",
+  "key": "central_east",
+  "date": "2026-11-29",
+  "time": "16:00",
+  "networks": [
+   "tiktok",
+   "instagram"
+  ],
+  "slides": [
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/central_east/1.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/central_east/2.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/central_east/3.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/central_east/4.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/central_east/5.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/central_east/6.jpg"
+  ],
+  "video": "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/central_east/video.mp4",
+  "instagram_format": "REEL",
+  "metricool_ids": {
+   "tiktok": 437945035,
+   "instagram": 437945098
+  },
+  "status": "scheduled"
+ },
+ {
+  "kind": "carousel_6",
+  "key": "unusual_places",
+  "date": "2026-11-30",
+  "time": "16:00",
+  "networks": [
+   "tiktok",
+   "instagram"
+  ],
+  "slides": [
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/unusual_places/1.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/unusual_places/2.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/unusual_places/3.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/unusual_places/4.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/unusual_places/5.jpg",
+   "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/unusual_places/6.jpg"
+  ],
+  "video": "https://raw.githubusercontent.com/confidencemomoh177-sketch/molly-posts/4e14f75ebe915ed4f75d9bc3432fbc450a38824b/european-christmas-markets/carousels/unusual_places/video.mp4",
+  "instagram_format": "REEL",
+  "metricool_ids": {
+   "tiktok": 437946050,
+   "instagram": 437946104
+  },
+  "status": "scheduled"
  }
 ]

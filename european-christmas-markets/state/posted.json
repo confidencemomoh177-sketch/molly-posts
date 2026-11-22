@@ -377,9 +377,135 @@
    "key": "vienna_cafe",
    "date": "2026-11-23",
    "time": "19:00"
+  },
+  {
+   "n": 64,
+   "key": "season_dates",
+   "date": "2026-11-24",
+   "time": "09:00"
+  },
+  {
+   "n": 65,
+   "key": "oldest_markets",
+   "date": "2026-11-24",
+   "time": "13:00"
+  },
+  {
+   "n": 66,
+   "key": "strasbourg_lights",
+   "date": "2026-11-24",
+   "time": "19:00"
+  },
+  {
+   "n": 67,
+   "key": "kinderpunsch",
+   "date": "2026-11-25",
+   "time": "09:00"
+  },
+  {
+   "n": 68,
+   "key": "nuremberg_angels",
+   "date": "2026-11-25",
+   "time": "13:00"
+  },
+  {
+   "n": 69,
+   "key": "crowds",
+   "date": "2026-11-25",
+   "time": "19:00"
+  },
+  {
+   "n": 70,
+   "key": "mulled_names",
+   "date": "2026-11-26",
+   "time": "09:00"
+  },
+  {
+   "n": 71,
+   "key": "trains",
+   "date": "2026-11-26",
+   "time": "13:00"
+  },
+  {
+   "n": 72,
+   "key": "vienna_romance",
+   "date": "2026-11-26",
+   "time": "19:00"
+  },
+  {
+   "n": 73,
+   "key": "lauscha",
+   "date": "2026-11-27",
+   "time": "09:00"
+  },
+  {
+   "n": 74,
+   "key": "etiquette",
+   "date": "2026-11-27",
+   "time": "13:00"
+  },
+  {
+   "n": 75,
+   "key": "baking",
+   "date": "2026-11-27",
+   "time": "19:00"
+  },
+  {
+   "n": 76,
+   "key": "dietary",
+   "date": "2026-11-28",
+   "time": "09:00"
+  },
+  {
+   "n": 77,
+   "key": "krakow_szopki",
+   "date": "2026-11-28",
+   "time": "13:00"
+  },
+  {
+   "n": 78,
+   "key": "hidden_alsace",
+   "date": "2026-11-28",
+   "time": "19:00"
+  },
+  {
+   "n": 79,
+   "key": "advent_concerts",
+   "date": "2026-11-29",
+   "time": "09:00"
+  },
+  {
+   "n": 80,
+   "key": "real_crafts",
+   "date": "2026-11-29",
+   "time": "13:00"
+  },
+  {
+   "n": 81,
+   "key": "zimtsterne",
+   "date": "2026-11-29",
+   "time": "19:00"
+  },
+  {
+   "n": 82,
+   "key": "oliebollen",
+   "date": "2026-11-30",
+   "time": "09:00"
+  },
+  {
+   "n": 83,
+   "key": "faq",
+   "date": "2026-11-30",
+   "time": "13:00"
+  },
+  {
+   "n": 84,
+   "key": "itineraries",
+   "date": "2026-11-30",
+   "time": "19:00"
   }
  ],
- "items_used": 63,
+ "items_used": 84,
  "board_id": "617978448809090278",
  "metricool_brand": 7842391,
  "store_full": "https://www.barnesandnoble.com/w/european-christmas-markets-guide-2026-2027-shelli-a-hibbard/1151461426?ean=9798179025290",
@@ -387,6 +513,7 @@
  "notes": [
   "2026-11-08: week 2 (Nov 10-16) scheduled, 84 posts + 3 IG carousels; music now committed in ../music as m4a; slide-4 CTA moved to y=1395",
   "2026-11-09: added daily 6-slide carousels (TikTok + Instagram, 16:00 NY) Nov 10-16; replaced the 3 earlier 4-slide 9:16 IG carousels",
-  "2026-11-15: week 3 (Nov 17-23) scheduled after the Nov 8-15 review: 21 posts x 4 networks + 7 carousels (TikTok+IG, 16:00 NY). More surprise/tradition hooks and carousels, fewer cost/food lists, an opinion question in every caption. Videos on Cloudinary; pins/slides from raw GitHub (Metricool re-hosts)."
+  "2026-11-15: week 3 (Nov 17-23) scheduled after the Nov 8-15 review: 21 posts x 4 networks + 7 carousels (TikTok+IG, 16:00 NY). More surprise/tradition hooks and carousels, fewer cost/food lists, an opinion question in every caption. Videos on Cloudinary; pins/slides from raw GitHub (Metricool re-hosts).",
+  "2026-11-22: week 4 (Nov 24-30) scheduled after the Nov 16-22 review: 21 posts x 4 networks + 7 place-based carousels (16:00 NY; TikTok photo carousel, Instagram now a music Reel of the slides). Direct 'Comment X' question in every caption; 'opens this week' angles. All media from raw GitHub @4e14f75. Nearly all photo-matched book items are now used; from week 5 reuse top performers with new hooks."
  ]
 }

@@ -415,6 +415,185 @@
    "time": "16:00",
    "week": "2026-11-16",
    "kind": "carousel_video"
+  },
+  {
+   "n": 1,
+   "key": "paper_chain_maze",
+   "date": "2026-11-23",
+   "time": "09:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 2,
+   "key": "ispy_fair",
+   "date": "2026-11-23",
+   "time": "13:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 3,
+   "key": "tree_farm",
+   "date": "2026-11-23",
+   "time": "20:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 4,
+   "key": "shadows",
+   "date": "2026-11-24",
+   "time": "09:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 5,
+   "key": "connect_25",
+   "date": "2026-11-24",
+   "time": "13:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 6,
+   "key": "window_lights",
+   "date": "2026-11-24",
+   "time": "20:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 7,
+   "key": "odd_one_out",
+   "date": "2026-11-25",
+   "time": "09:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 8,
+   "key": "wreath",
+   "date": "2026-11-25",
+   "time": "13:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 9,
+   "key": "half_gingerbread",
+   "date": "2026-11-25",
+   "time": "20:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 10,
+   "key": "find_pairs",
+   "date": "2026-11-26",
+   "time": "09:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 11,
+   "key": "picture_sudoku",
+   "date": "2026-11-26",
+   "time": "13:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 12,
+   "key": "christmas_market",
+   "date": "2026-11-26",
+   "time": "20:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 13,
+   "key": "snowy_woods_maze",
+   "date": "2026-11-27",
+   "time": "09:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 14,
+   "key": "blanket_fort",
+   "date": "2026-11-27",
+   "time": "13:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 15,
+   "key": "spot_diff_gifts",
+   "date": "2026-11-27",
+   "time": "20:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 16,
+   "key": "connect_20",
+   "date": "2026-11-28",
+   "time": "09:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 17,
+   "key": "color_number_juniper",
+   "date": "2026-11-28",
+   "time": "13:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 18,
+   "key": "reindeer_games",
+   "date": "2026-11-28",
+   "time": "20:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 19,
+   "key": "trace_paths",
+   "date": "2026-11-29",
+   "time": "09:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 20,
+   "key": "snowman_pancakes",
+   "date": "2026-11-29",
+   "time": "13:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": 21,
+   "key": "trace_shapes",
+   "date": "2026-11-29",
+   "time": "20:00",
+   "week": "2026-11-23"
+  },
+  {
+   "n": "C01",
+   "key": "kids_table",
+   "date": "2026-11-23",
+   "time": "16:00",
+   "week": "2026-11-23",
+   "kind": "carousel_video"
+  },
+  {
+   "n": "C02",
+   "key": "before_after",
+   "date": "2026-11-25",
+   "time": "16:00",
+   "week": "2026-11-23",
+   "kind": "carousel_video"
+  },
+  {
+   "n": "C03",
+   "key": "black_friday_gifts",
+   "date": "2026-11-27",
+   "time": "16:00",
+   "week": "2026-11-23",
+   "kind": "carousel_video"
+  },
+  {
+   "n": "C04",
+   "key": "advent_countdown",
+   "date": "2026-11-29",
+   "time": "16:00",
+   "week": "2026-11-23",
+   "kind": "carousel_video"
   }
  ],
  "metricool_brand": 7850012,

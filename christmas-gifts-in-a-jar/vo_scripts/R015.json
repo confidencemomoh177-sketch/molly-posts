@@ -1,0 +1,25 @@
+{
+ "out": "vo/R015/video.mp4",
+ "slides": [
+  "posts4/R015/1_hook.png",
+  "posts4/R015/2_layers.png",
+  "posts4/R015/3_page.png",
+  "posts4/R015/4_book.png"
+ ],
+ "music": "music/deck_the_halls_bells.wav",
+ "script": [
+  [
+   "Cyber Monday? Skip the shopping, and make this instead."
+  ],
+  [
+   "Peppermint bark brownie mix: chocolate brownies with white chocolate and crushed candy canes."
+  ],
+  [
+   "One jar makes sixteen brownies, and keeps three months."
+  ],
+  [
+   "The recipe, and ninety-nine more, are in Christmas Gifts in a Jar."
+  ]
+ ],
+ "speed": 1.08
+}

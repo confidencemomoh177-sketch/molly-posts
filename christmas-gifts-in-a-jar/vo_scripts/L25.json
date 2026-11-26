@@ -1,0 +1,25 @@
+{
+ "out": "vo/L25/video.mp4",
+ "slides": [
+  "posts4/L25/1_hook.png",
+  "posts4/L25/2_layers.png",
+  "posts4/L25/3_page.png",
+  "posts4/L25/4_book.png"
+ ],
+ "music": "music/jingle_bells_musicbox.wav",
+ "script": [
+  [
+   "Sending gifts across the country? These four jars hold up in the mail."
+  ],
+  [
+   "Chocolate chip cookie mix, friendship soup, smoky barbecue rub, and Christmas baking spice."
+  ],
+  [
+   "They keep three to six months, and the book's freshness chart shows how long every jar lasts."
+  ],
+  [
+   "The recipes are in Christmas Gifts in a Jar."
+  ]
+ ],
+ "speed": 1.08
+}

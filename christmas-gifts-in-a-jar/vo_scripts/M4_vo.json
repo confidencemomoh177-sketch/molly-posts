@@ -1,0 +1,27 @@
+{
+ "photo": "allimg/i-042.png",
+ "crop_x": 0.6,
+ "tag": "GET-WELL GIFT",
+ "hook": "Know someone who's under the weather?",
+ "subhook": "chicken noodle soup in a jar",
+ "caption": "6 cozy servings, keeps 6 months. Recipe + 99 more jars in the book",
+ "fx": [
+  {
+   "type": "steam",
+   "x": 0.74,
+   "y": 0.6,
+   "w": 0.22
+  }
+ ],
+ "move": "right",
+ "out": "vo/M4_vo/video.mp4",
+ "end_card": "posts3/079_hot_fudge/4_book.png",
+ "music": "music/we_wish_strings.wav",
+ "speed": 1.08,
+ "script": [
+  "Know someone who's under the weather?",
+  "Give them homestyle chicken noodle soup, in a jar.",
+  "It makes about two quarts, six servings, and keeps six months.",
+  "The recipe, and ninety-nine more, are in Christmas Gifts in a Jar."
+ ]
+}

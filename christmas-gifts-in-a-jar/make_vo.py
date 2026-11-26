@@ -54,7 +54,7 @@ def mix(tmp, vo_path, music, total, mv_, out):
                     f"[2:a]aresample=44100,atrim=0:{total:.2f},volume={mv_},"
                     f"afade=t=in:d=0.6,afade=t=out:st={total - 1.0:.2f}:d=1.0[m];"
                     f"[m][sc]sidechaincompress=threshold=0.03:ratio=4:attack=20:release=400[md];"
-                    f"[v][md]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]",
+                    f"[v][md]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95,aformat=channel_layouts=stereo[a]",
                     "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-t", f"{total:.2f}",
                     "-movflags", "+faststart", out], check=True)
 

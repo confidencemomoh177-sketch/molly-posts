@@ -1,0 +1,25 @@
+{
+ "out": "vo/R098/video.mp4",
+ "slides": [
+  "posts4/R098/1_hook.png",
+  "posts4/R098/2_layers.png",
+  "posts4/R098/3_page.png",
+  "posts4/R098/4_book.png"
+ ],
+ "music": "music/jingle_bells_piano.wav",
+ "script": [
+  [
+   "Don't forget the dog! These are good dog biscuits."
+  ],
+  [
+   "Peanut butter and pumpkin, baked into about three dozen crunchy little biscuits."
+  ],
+  [
+   "They keep two weeks, or three months in the freezer."
+  ],
+  [
+   "The recipe, and ninety-nine more, are in Christmas Gifts in a Jar."
+  ]
+ ],
+ "speed": 1.08
+}

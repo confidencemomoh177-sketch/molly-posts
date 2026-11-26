@@ -1,0 +1,26 @@
+{
+ "out": "vo/L26/video.mp4",
+ "slides": [
+  "posts4/L26/1_hook.png",
+  "posts4/L26/2_layers.png",
+  "posts4/L26/3_page.png",
+  "posts4/L26/4_book.png"
+ ],
+ "music": "music/deck_the_halls_piano.wav",
+ "script": [
+  [
+   "Forgot someone? Here are five gifts you can make tonight."
+  ],
+  [
+   "Hot cocoa, lavender bath salts, and simmering potpourri take about five minutes.",
+   "Easy chocolate fudge and peppermint bark take about thirty."
+  ],
+  [
+   "The book sorts all one hundred jars by how much time you have."
+  ],
+  [
+   "Find them all in Christmas Gifts in a Jar."
+  ]
+ ],
+ "speed": 1.08
+}

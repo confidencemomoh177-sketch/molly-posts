@@ -1,0 +1,24 @@
+{
+ "out": "vo/R038/video.mp4",
+ "slides": [
+  "posts4/R038/1_hook.png",
+  "posts4/R038/2_layers.png",
+  "posts4/R038/3_page.png",
+  "posts4/R038/4_book.png"
+ ],
+ "music": "music/deck_the_halls_piano.wav",
+ "script": [
+  [
+   "What's simmering this Thanksgiving? A jar of mulling spices."
+  ],
+  [
+   "Cinnamon sticks, orange peel, cloves, allspice, and star anise, all in one little jar."
+  ],
+  [
+   "Two tablespoons flavor two quarts of cider. One jar makes four batches, and keeps six months."
+  ],
+  [
+   "The recipe, and ninety-nine more, are in Christmas Gifts in a Jar."
+  ]
+ ]
+}

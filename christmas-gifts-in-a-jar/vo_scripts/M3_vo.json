@@ -1,0 +1,26 @@
+{
+ "photo": "allimg/i-039.png",
+ "crop_x": 0.5,
+ "tag": "SKIP BLACK FRIDAY",
+ "hook": "Skip the lines. This gift costs under $2",
+ "subhook": "snowman soup cocoa",
+ "caption": "A kids' favorite with a sweet little rhyme. Recipe + 99 more jars in the book",
+ "fx": [
+  {
+   "type": "snow"
+  }
+ ],
+ "move": "in",
+ "out": "vo/M3_vo/video.mp4",
+ "end_card": "posts3/079_hot_fudge/4_book.png",
+ "music": "music/jingle_bells_bells.wav",
+ "script": [
+  "Skip the Black Friday lines. This gift costs under two dollars.",
+  "It's snowman soup: one mug of hot cocoa in a little jar, with a sweet rhyme on the tag.",
+  "Perfect for classmates, party favors, and stockings.",
+  "The recipe, and ninety-nine more, are in Christmas Gifts in a Jar."
+ ],
+ "voice": "af_heart",
+ "speed": 1.08,
+ "music_vol": 0.1
+}

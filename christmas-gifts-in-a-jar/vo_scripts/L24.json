@@ -1,0 +1,25 @@
+{
+ "out": "vo/L24/video.mp4",
+ "slides": [
+  "posts4/L24/1_hook.png",
+  "posts4/L24/2_layers.png",
+  "posts4/L24/3_page.png",
+  "posts4/L24/4_book.png"
+ ],
+ "music": "music/deck_the_halls_strings.wav",
+ "script": [
+  [
+   "No oven? No problem. Here are six gifts you can make without baking."
+  ],
+  [
+   "Hot cocoa, vanilla chai, Christmas baking spice, vanilla cinnamon sugar, lavender bath salts, and simmering potpourri."
+  ],
+  [
+   "You just measure, layer, and tie on a tag."
+  ],
+  [
+   "All six recipes, and ninety-four more, are in Christmas Gifts in a Jar."
+  ]
+ ],
+ "speed": 1.08
+}

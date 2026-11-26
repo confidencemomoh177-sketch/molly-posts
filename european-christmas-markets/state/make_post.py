@@ -178,8 +178,9 @@ def build(r, out):
     return [f"{out}/{n}.png" for n in ("1_hook", "2_layers", "3_page", "4_book")]
 
 
-def video(slides, music, out, per=3.6, xf=0.6):
-    """15 s 9:16 video: slow zoom per slide, crossfades, music faded in/out. music=None -> silent track."""
+def video(slides, music, out, per=3.6, xf=0.6, voiceover=None):
+    """15 s 9:16 video: slow zoom per slide, crossfades, music faded in/out. music=None -> silent track.
+    voiceover=path to a narration wav (from voiceover.py): music drops to a light bed (12%) under the voice."""
     inputs, filt = [], []
     for i, s in enumerate(slides):
         inputs += ["-loop", "1", "-t", str(per + xf), "-i", s]
@@ -195,7 +196,13 @@ def video(slides, music, out, per=3.6, xf=0.6):
         inputs += ["-i", music]
     else:
         inputs += ["-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo"]
-    filt.append(f"[{n}:a]atrim=0:{total:.2f},afade=t=in:d=0.3,afade=t=out:st={total - 1.5:.2f}:d=1.5,volume=0.9[a]")
+    if voiceover:
+        inputs += ["-i", voiceover]
+        filt.append(f"[{n}:a]atrim=0:{total:.2f},volume=0.12,afade=t=in:d=0.5,afade=t=out:st={total - 1.5:.2f}:d=1.5[m]")
+        filt.append(f"[{n + 1}:a]adelay=400|400,volume=1.6,aresample=44100,aformat=channel_layouts=stereo[vo]")
+        filt.append("[m][vo]amix=inputs=2:duration=first:normalize=0[a]")
+    else:
+        filt.append(f"[{n}:a]atrim=0:{total:.2f},afade=t=in:d=0.3,afade=t=out:st={total - 1.5:.2f}:d=1.5,volume=0.9[a]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(filt),
                     "-map", f"[{last}]", "-map", "[a]", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-profile:v", "high", "-preset", "veryfast", "-crf", "20",
                     "-c:a", "aac", "-b:a", "160k", "-t", f"{total:.2f}", "-movflags", "+faststart", out], check=True)
@@ -205,5 +212,5 @@ if __name__ == "__main__":
     r = {**DEFAULTS, **json.load(open(sys.argv[1])), **json.load(open(sys.argv[2]))}
     slides = build(r, r["out"])
     if not r.get("no_video"):
-        video(slides, r.get("music"), f"{r['out']}/video.mp4")
+        video(slides, r.get("music"), f"{r['out']}/video.mp4", voiceover=r.get("voiceover"))
     print("ok", r["out"])

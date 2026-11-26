@@ -307,7 +307,25 @@
     "molly/w4/",
     "molly/w4car/",
     "molly/w4pins/"
-   ]
+   ],
+   "voiceover_switch": {
+    "date": "2026-11-26",
+    "videos": [
+     "R038",
+     "L24",
+     "M3",
+     "L25",
+     "R098",
+     "R021",
+     "R005",
+     "M4",
+     "R015",
+     "L26"
+    ],
+    "format": "Kokoro TTS af_heart (American female), speed 1.08, music ducked ~0.10; make_vo.py (moving photo) / make_vo_slides.py (slides)",
+    "cloudinary_prefix": "molly/w4vo/",
+    "note": "user asked all videos from now on: light background music + American voiceover"
+   }
   }
  },
  "photo_confirmed": {
